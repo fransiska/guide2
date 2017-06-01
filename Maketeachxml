@@ -1,0 +1,7 @@
+#please adjust these to your own program!
+
+PROGS = gui/teachxml
+
+SOURCES = teachXmltoTxt.cpp  $(TINYXML) $(ROBOTFRAME) 
+
+include ../../Makehel

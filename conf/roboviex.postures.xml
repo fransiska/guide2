@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<guide>
+  <postures num="3">
+    <posture id="0" name="New Neony Posture" angle=" 0 0 0 0 0 0 0 0 0 0 0.284098 0 0 0 -0.313016 0 0 0 0 0 0 0.287187" />
+    <posture id="1" name="squat" angle=" 0 0 0.864024 -0.69122 1.46884 -1.26148 -0.103683 0 0 0 0 0 0 0 -0.881305 0.881305 0.950427 -0.950427 0 0 0 0" />
+    <posture id="2" name="zero" angle=" -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+  </postures>
+</guide>

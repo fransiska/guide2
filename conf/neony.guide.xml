@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors>
+    <motor id="0" x="401" y="103" description="right" type="pitch" reverse="false" />
+    <motor id="1" x="401" y="50" description="right" type="yaw" reverse="false" />
+
+    <motor id="2" x="161" y="138" description="left" type="pitch" reverse="true" />
+    <motor id="3" x="642" y="138" description="right" type="pitch" reverse="false" />
+    <motor id="4" x="161" y="186" description="left" type="roll" reverse="false" />
+    <motor id="5" x="642" y="186" description="right" type="roll" reverse="false" />
+    <motor id="6" x="161" y="231" description="left" type="roll" reverse="false" />
+    <motor id="7" x="642" y="231" description="right" type="roll" reverse="false" />
+
+    <motor id="8" x="348" y="202" description="left" type="yaw" reverse="true" />
+    <motor id="9" x="455" y="202" description="right" type="yaw" reverse="true" />
+    <motor id="10" x="348" y="303" description="left" type="roll" reverse="true" />
+    <motor id="11" x="455" y="303" description="right" type="roll" reverse="true" />
+    <motor id="12" x="348" y="255" description="left" type="pitch" reverse="false" />
+    <motor id="13" x="455" y="255" description="right" type="pitch" reverse="true" />
+    <motor id="14" x="348" y="351" description="left" type="pitch" reverse="false" />
+    <motor id="15" x="455" y="351" description="right" type="pitch" reverse="true" />
+    <motor id="16" x="348" y="403" description="left" type="pitch" reverse="false" />
+    <motor id="17" x="455" y="403" description="right" type="pitch" reverse="true" />
+    <motor id="18" x="348" y="499" description="left" type="pitch" reverse="true" />
+    <motor id="19" x="455" y="499" description="right" type="pitch" reverse="false" />
+    <motor id="20" x="348" y="452" description="left" type="roll" reverse="false" />
+    <motor id="21" x="455" y="452" description="right" type="roll" reverse="false" />
+  </motors>
+  <sensors>
+    <sensor id="0" x="705" y="309" /> 
+    <sensor id="1" x="440" y="309" /> 
+    <sensor id="2" x="440" y="420" /> 
+    <sensor id="3" x="477" y="357" /> 
+    <sensor id="4" x="440" y="370" /> 
+    <sensor id="5" x="403" y="357" /> 
+    <sensor id="6" x="440" y="528" /> 
+    <sensor id="7" x="403" y="470" /> 
+    <sensor id="8" x="440" y="467" /> 
+    <sensor id="9" x="477" y="470" /> 
+    <sensor id="10" x="474" y="567" /> 
+    <sensor id="11" x="474" y="537" /> 
+    <sensor id="12" x="464" y="564" /> 
+    <sensor id="13" x="720" y="537" /> 
+    <sensor id="14" x="413" y="567" /> 
+    <sensor id="15" x="413" y="537" /> 
+    <sensor id="16" x="710" y="528" /> 
+    <sensor id="17" x="423" y="564" /> 
+    <sensor id="18" x="355" y="309" /> 
+    <sensor id="19" x="90" y="309" />
+    <sensor id="20" x="393" y="357" /> 
+    <sensor id="21" x="355" y="370" /> 
+    <sensor id="22" x="318" y="357" /> 
+    <sensor id="23" x="355" y="420" /> 
+    <sensor id="24" x="318" y="470" /> 
+    <sensor id="25" x="355" y="467" /> 
+    <sensor id="26" x="393" y="470" /> 
+    <sensor id="27" x="355" y="528" /> 
+    <sensor id="28" x="382" y="567" /> 
+    <sensor id="29" x="382" y="537" /> 
+    <sensor id="30" x="372" y="564" /> 
+    <sensor id="31" x="85" y="528" /> 
+    <sensor id="32" x="322" y="567" /> 
+    <sensor id="33" x="322" y="537" /> 
+    <sensor id="34" x="332" y="564" /> 
+    <sensor id="35" x="75" y="537" /> 
+    <sensor id="36" x="474" y="159" /> 
+    <sensor id="37" x="511" y="182" /> 
+    <sensor id="38" x="490" y="238" /> 
+    <sensor id="39" x="533" y="252" /> 
+    <sensor id="40" x="710" y="231" /> 
+    <sensor id="41" x="532" y="385" /> 
+    <sensor id="42" x="532" y="348" /> 
+    <sensor id="43" x="508" y="295" /> 
+    <sensor id="44" x="715" y="295" /> 
+    <sensor id="45" x="500" y="385" /> 
+    <sensor id="46" x="500" y="348" /> 
+    <sensor id="47" x="322" y="159" /> 
+    <sensor id="48" x="287" y="182" /> 
+    <sensor id="49" x="300" y="238" /> 
+    <sensor id="50" x="264" y="252" /> 
+    <sensor id="51" x="85" y="231" /> 
+    <sensor id="52" x="263" y="385" /> 
+    <sensor id="53" x="263" y="348" /> 
+    <sensor id="54" x="285" y="295" /> 
+    <sensor id="55" x="80" y="295" /> 
+    <sensor id="56" x="294" y="385" /> 
+    <sensor id="57" x="294" y="348" /> 
+    <sensor id="58" x="690" y="243" /> 
+    <sensor id="59" x="673" y="262" /> 
+    <sensor id="60" x="654" y="243" /> 
+    <sensor id="61" x="729" y="189" /> 
+    <sensor id="62" x="724" y="252" /> 
+    <sensor id="63" x="138" y="243" /> 
+    <sensor id="64" x="120" y="262" /> 
+    <sensor id="65" x="101" y="243" /> 
+    <sensor id="66" x="69" y="252" /> 
+    <sensor id="67" x="64" y="189" /> 
+    <sensor id="68" x="415" y="192" /> 
+    <sensor id="69" x="381" y="192" /> 
+    <sensor id="70" x="415" y="235" /> 
+    <sensor id="71" x="381" y="235" /> 
+    <sensor id="72" x="398" y="262" /> 
+    <sensor id="73" x="440" y="240" /> 
+    <sensor id="74" x="355" y="240" /> 
+    <sensor id="75" x="369" y="52" /> 
+    <sensor id="76" x="428" y="52" /> 
+    <sensor id="77" x="428" y="120" /> 
+    <sensor id="78" x="369" y="120" /> 
+    <sensor id="79" x="133" y="57" /> 
+    <sensor id="80" x="133" y="118" /> 
+    <sensor id="81" x="653" y="110" /> 
+    <sensor id="82" x="653" y="55" /> 
+    <sensor id="83" x="683" y="30" /> 
+    <sensor id="84" x="398" y="22" /> 
+    <sensor id="85" x="726" y="55" /> 
+    <sensor id="86" x="105" y="30" /> 
+    <sensor id="87" x="688" y="90" /> 
+    <sensor id="88" x="726" y="110" /> 
+    <sensor id="89" x="89" y="90" /> 
+<!--
+    <sensor id="90" x="694" y="380" /> 
+    <sensor id="91" x="105" y="380" /> 
+-->
+  </sensors>
+
+  <structure>
+    <limbs>
+      <limb id="0" x="345" y="74" />
+      <limb id="1" x="180" y="100" />
+      <limb id="2" x="624" y="100" />
+      <limb id="3" x="345" y="147" />
+      <limb id="4" x="454" y="147" />
+      <limb id="5" x="36" y="310" />
+    </limbs>
+  </structure>
+</robot>

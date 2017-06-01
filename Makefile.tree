@@ -1,0 +1,10 @@
+PROGS = gui/guideTree
+
+#for libs and flags
+USEGTK = 1
+
+
+#sources
+SOURCES = guideTreeMainWindow.cpp $(TINYXML)  guideDebugWindow.cpp    $(HELIUM)/core/basicEnum.cpp 
+
+include ../../Makehel

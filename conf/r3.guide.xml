@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors>
+    <motor id="0" x="401" y="50" description="right" type="yaw" reverse="false" />
+    <motor id="1" x="401" y="103" description="right" type="pitch" reverse="false" />
+    <motor id="2" x="401" y="150" description="right" type="roll" reverse="false" />
+
+    <motor id="3" x="161" y="138" description="left" type="pitch" reverse="false" />
+    <motor id="4" x="642" y="138" description="right" type="pitch" reverse="false" />
+    <motor id="5" x="161" y="186" description="left" type="roll" reverse="false" />
+    <motor id="6" x="642" y="186" description="right" type="roll" reverse="false" />
+
+
+    <motor id="7" x="161" y="231" description="left" type="yaw" reverse="false" />
+    <motor id="8" x="642" y="231" description="right" type="yaw" reverse="false" />
+    <motor id="9" x="161" y="281" description="left" type="roll" reverse="false" />
+    <motor id="10" x="642" y="281" description="right" type="roll" reverse="false" />
+
+
+    <motor id="11" x="348" y="303" description="left" type="roll" reverse="false" />
+    <motor id="12" x="455" y="303" description="right" type="roll" reverse="false" />
+
+  </motors>
+
+  <structure>
+    <limbs>
+      <limb id="0" x="345" y="74" />
+      <limb id="1" x="180" y="100" />
+      <limb id="2" x="624" y="100" />
+      <limb id="3" x="345" y="147" />
+      <limb id="5" x="36" y="310" />
+    </limbs>
+  </structure>
+</robot>

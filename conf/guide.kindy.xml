@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config>
+  <configfile id="kindyGui" filename="conf/kindy.gui.xml" />
+  <configfile id="kindyMotors" filename="conf/kindy.motors.xml" /> 
+  <configfile id="kindyCalib" filename="conf/kindy.calib.xml" />
+  <configfile id="kindyLimbs" filename="conf/kindy.limbs.xml" />
+  <configfile id="kindyGuide" filename="conf/kindy.guide.xml" />
+</config>

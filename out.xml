@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<guide>
+    <settings>
+        <background filename="" />
+        <colors>
+            <cursor num="3">
+                <cursor id="0" value=" -2.17713e-42 -0.821777 -0.821802" />
+                <cursor id="1" value=" -0.821797 1.52069e-314 -1.50364e-41" />
+                <cursor id="2" value=" 2.91767e-313 -5.99859e-42 1.52126e-313" />
+            </cursor>
+            <powerState num="2">
+                <powerState id="0" value=" 0 1.78884e-311 -5.99384e-42" />
+                <powerState id="1" value=" -2.23593e-42 2.18845e-314 -0.821884" />
+            </powerState>
+        </colors>
+        <sizes>
+            <joint small="-1.43494e-41" big="4.85743e-270" />
+            <stroke size="-1.52231e-41" />
+            <bar w="3.64202e-314" h="2.122e-314" />
+            <entry w="2.96439e-323" h="3.39519e-313" />
+            <switch w="-0.821827" h="1.52069e-314" />
+            <arrow w="-0.821856" h="-1.12552e-41" />
+            <box w="-1.12807e-41" h="-0.821858" />
+            <frame w="-1.4797e-41" h="-1.12552e-41" />
+        </sizes>
+    </settings>
+    <limbs num="6">
+        <limb id="0" name="" x="0" y="0" member=" 0 0 0" />
+        <limb id="1" name="" x="0" y="0" member="" />
+        <limb id="2" name="" x="0" y="0" member="" />
+        <limb id="3" name="" x="0" y="0" member="" />
+        <limb id="4" name="" x="0" y="0" member="" />
+        <limb id="5" name="" x="0" y="0" member="" />
+    </limbs>
+    <joints num="4">
+        <joint id="0" x="0" y="0" description="right" type="pitch" reverse="false" />
+        <joint id="1" x="0" y="0" description="right" type="pitch" reverse="false" />
+        <joint id="2" x="0" y="0" description="right" type="pitch" reverse="false" />
+        <joint id="3" x="0" y="0" description="right" type="pitch" reverse="false" />
+    </joints>
+</guide>

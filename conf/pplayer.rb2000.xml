@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config> 
+  <configfile id="motors" filename="conf/rb2000.motors.xml" />
+  <configfile id="calib" filename="conf/rb2000.calib.xml" />
+  <configfile id="rawID" filename="conf/rb2000.rawId.xml" />
+</config>

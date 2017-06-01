@@ -1,0 +1,95 @@
+
+Makefile,31
+all:all1,0
+clean:clean3,36
+
+MakesensorCalibWindow,11
+PPATH=1,0
+
+sensorCalib.cpp,32
+SensorCalib::SensorCalib(8,107
+
+sensorCalibDrawingWidget.cpp,291
+SensorCalibDrawingWidget::SensorCalibDrawingWidget(9,139
+bool SensorCalibDrawingWidget::on_expose_event(33,787
+void SensorCalibDrawingWidget::on_refresh(135,4162
+int SensorCalibDrawingWidget::get_active_sensor_no(143,4400
+void SensorCalibDrawingWidget::update_active_sensor_no(148,4483
+
+sensorCalibDrawingWidget.cpp~,318
+using namespace std;7,117
+SensorCalibDrawingWidget::SensorCalibDrawingWidget(9,139
+bool SensorCalibDrawingWidget::on_expose_event(32,627
+void SensorCalibDrawingWidget::on_refresh(134,3992
+int SensorCalibDrawingWidget::get_active_sensor_no(142,4230
+void SensorCalibDrawingWidget::update_active_sensor_no(147,4313
+
+sensorCalibDrawingWidget.h,132
+#define SENSORCALIBDRAWINGWIDGET2,33
+class SensorCalibDrawingWidget 8,156
+  float get_pr(SensorCalibDrawingWidget::get_pr25,614
+
+sensorCalibDrawingWidget.h~,132
+#define SENSORCALIBDRAWINGWIDGET2,33
+class SensorCalibDrawingWidget 8,156
+  float get_pr(SensorCalibDrawingWidget::get_pr24,545
+
+sensorCalib.h,49
+#define SENSORCALIB2,20
+class SensorCalib 6,78
+
+sensorCalibMain.cpp,17
+int main(10,185
+
+sensorCalibMainWindow.h,492
+#define SENSORCALIBMAINWINDOW2,30
+class SensorCalibMainWindow 6,93
+  SensorCalibMainWindow(SensorCalibMainWindow::SensorCalibMainWindow10,181
+  void connect(SensorCalibMainWindow::connect17,421
+  void disconnect(SensorCalibMainWindow::disconnect27,679
+  void onSocketDisconnection(SensorCalibMainWindow::onSocketDisconnection31,741
+  void setPowerState(SensorCalibMainWindow::setPowerState35,818
+  void registerConnectionLine(SensorCalibMainWindow::registerConnectionLine40,911
+
+sensorCalibMenu.cpp,157
+SensorCalibMenu::SensorCalibMenu(3,30
+void SensorCalibMenu::addTo(7,70
+void SensorCalibMenu::onFileSave(35,1082
+void SensorCalibMenu::onFileQuit(45,1238
+
+sensorCalibMenu.h,57
+#define SENSORCALIBMENU2,24
+class SensorCalibMenu 7,87
+
+sensorCalibWindow.cpp,406
+SensorCalibWindow::SensorCalibWindow(7,116
+void SensorCalibWindow::on_button_min(110,4174
+void SensorCalibWindow::on_button_max(133,4795
+bool SensorCalibWindow::on_eventbox_button_press 149,5175
+void SensorCalibWindow::update_status_label(192,6793
+void SensorCalibWindow::on_button_quit(200,7153
+void SensorCalibWindow::on_button_save(204,7209
+void SensorCalibWindow::update_sensor_values(209,7324
+
+sensorCalibWindow.cpp~,432
+using namespace std;5,94
+SensorCalibWindow::SensorCalibWindow(7,116
+void SensorCalibWindow::on_button_min(110,4174
+void SensorCalibWindow::on_button_max(133,4795
+bool SensorCalibWindow::on_eventbox_button_press 149,5175
+void SensorCalibWindow::update_status_label(192,6793
+void SensorCalibWindow::on_button_quit(200,7153
+void SensorCalibWindow::on_button_save(204,7209
+void SensorCalibWindow::update_sensor_values(209,7324
+
+sensorCalibWindow.h,174
+#define SENSORCALIBWINDOW2,26
+class SensorCalibWindow 13,273
+class SensorCalibSubWindow 62,1760
+  SensorCalibSubWindow(SensorCalibSubWindow::SensorCalibSubWindow64,1825
+
+sensorCalibWindow.h~,174
+#define SENSORCALIBWINDOW2,26
+class SensorCalibWindow 13,275
+class SensorCalibSubWindow 62,1750
+  SensorCalibSubWindow(SensorCalibSubWindow::SensorCalibSubWindow64,1815

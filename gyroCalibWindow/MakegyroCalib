@@ -1,0 +1,20 @@
+PPATH= ../..
+THIRD= ../../../third
+APP  = ../
+
+MATH=$(PPATH)/math/envelopeParallelepiped.cpp $(PPATH)/math/matrixUtil.cpp $(PPATH)/math/lapackUtil.cpp $(PPATH)/math/filter.cpp
+ROBOT=$(PPATH)/robot/im.cpp $(PPATH)/robot/remoteMotors.cpp $(PPATH)/robot/asciiClient.cpp  $(PPATH)/robot/asciiServer.cpp $(PPATH)/robot/gyro.cpp $(PPATH)/robot/motors.cpp $(PPATH)/robot/tSensor.cpp  $(PPATH)/robot/structure.cpp $(PPATH)/robot/commandParser.cpp$  $(PPATH)/robot/policy.cpp $(PPATH)/robot/framePolicy.cpp $(PPATH)/robot/namedException.cpp $(PPATH)/robot/sensorProcess.cpp $(PPATH)/robot/flowManager.cpp $(PPATH)/robot/sensorCalibManager.cpp $(PPATH)/robot/gyroCalibManager.cpp $(PPATH)/robot/sensorCalibXml.cpp
+
+THREAD=$(PPATH)/thread/lwThread.cpp $(PPATH)/thread/updateElement.cpp $(PPATH)/thread/watchdog.cpp
+NET=$(PPATH)/net/clientSocket.cpp $(PPATH)/net/serverSocket.cpp 
+GRAPHICS=$(PPATH)/graphics/glDraw.cpp $(PPATH)/graphics/glUtil.cpp $(PPATH)/graphics/glTexture.cpp
+SIMUL=$(PPATH)/simul/odeStructure.cpp $(PPATH)/simul/simulGraphics.cpp $(PPATH)/simul/odeMath.cpp $(PPATH)/simul/glDrawODE.cpp  
+VSTONE=$(PPATH)/vstone/V4GsensorProcessor.cpp $(PPATH)/vstone/V4Gstructure.cpp
+GUIOBJECTS=$(PPATH)/guiObjects/guiConnectionLine.cpp
+TINYXML= $(THIRD)/tinyxml/tinyxml.cpp $(THIRD)/tinyxml/tinyxmlerror.cpp $(THIRD)/tinyxml/tinyxmlparser.cpp  $(THIRD)/tinyxml/tinystr.cpp
+
+SOURCES= gyroCalibMain.cpp gyroCalib.cpp gyroCalibWindow.cpp gyroCalibBox.cpp $(MATH) $(NET) $(ROBOT) $(PARSERS) $(SERIAL) $(SIMUL) $(GRAPHICS) $(VSTONE) $(THREAD) $(GUIOBJECTS) $(TINYXML) #gyroCalibMenu.cpp 
+PROGS= $(PPATH)/../bin/gui/gyroCalib
+CPPFLAGS= -g -Wall -I $(PPATH) -I $(THIRD) -I $(APP) -DdDOUBLE `pkg-config gtkmm-2.4 --cflags`
+LIBS= -lpthread -lode -lglut -lGL -lGLU -llapack `pkg-config gtkmm-2.4 --libs` -lgthread-2.0
+include ../../Makearch

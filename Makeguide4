@@ -1,0 +1,33 @@
+#Release_flags g
+#please adjust these to your own program!
+
+
+#CPPFLAGS = -ftime-report
+
+PROGS = gui/guide2
+
+#for libs and flags
+USEGTK = 1
+USEGTKGL = 1
+USELAPACK = 1
+#USESCREENSHOT =1
+
+#sources
+WINDOWS = robotModels.cpp guideDebugWindow.cpp guideTeachWindow.cpp guidePostureWindow.cpp iconLabelButton.cpp
+#guideHardwareWindow.cpp 
+DIALOGS = guideErrorDialog.cpp inputDialog.cpp yesNoDialog.cpp angleEntry.cpp 
+GUI = widgetDrawer.cpp guideColdetWindow.cpp guideWindow.cpp guideCanvas.cpp drawable.cpp $(WINDOWS) $(DIALOGS) 
+GUIDE2 = guideMain.cpp guideState.cpp guideHistory.cpp guideLogic.cpp guideDescription.cpp motionLine.cpp playButton.cpp guideMenu.cpp glarea.cpp guideMotionManagement.cpp guideLog.cpp teachIO.cpp teachPower.cpp tbt.cpp connectionCell.cpp  $(GUI) im.cpp coldetManager.cpp motionInfo.cpp guideConfigTypes.cpp  
+
+#GYRO= $(HB)/robot/gyroCalibManager.cpp  
+SENSORCALIB=$(PPATH)/app/guide2/sensorCalibWindow/sensorCalib.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibWindow.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibMenu.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibDrawingWidget.cpp 
+
+GYROCALIB=$(PPATH)/app/guide2/gyroCalibWindow/gyroCalib.cpp $(PPATH)/app/guide2/gyroCalibWindow/gyroCalibWindow.cpp $(PPATH)/app/guide2/gyroCalibWindow/gyroCalibBox.cpp
+
+YARP =yarpInterface.cpp $(HELIUM)/yarp/yarpMotor.cpp $(HELIUM)/yarp/yarpRpc.cpp $(HELIUM)/yarp/yarpClient.cpp $(HELIUM)/yarp/yarpPaths.cpp $(HELIUM)/yarp/yarpMotionPlayer.cpp
+
+ANDROID = $(HELIUM)/android/androidMotorSign.cpp
+
+SOURCES =  $(GUIDE2) $(TINYXML) $(CONVEX) $(GRAPHICS) $(MATH) $(ROBOTFRAME)  $(ROBOT) $(CELL) $(CORE) $(HELIUMS) $(LAPACK) $(PEDAL) $(YARP) $(SENSORCALIB) $(GYROCALIB) $(ANDROID)
+
+include ../../Makehel

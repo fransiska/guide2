@@ -1,0 +1,441 @@
+<?xml version="1.0" ?>
+<robot>
+<!-- 
+     joint began with "j", parent < child 
+     hand = left
+     leg = right
+-->
+  <joint filename="v4gJoints.xml" />
+  <box filename="v4gParts.xml" />
+
+  <link id="0" parent="-1" motorId="-1" offset="0" multiply="1" name="jbody"> 
+    <part name="bodybottom" />
+    <part name="bodytop" />
+    <part name="neck" />
+  </link>
+
+  <link id="33" parent="0" motorId="0" offset="0" multiply="-1" name="jneckp"> 
+  </link>
+
+  <link id="34" parent="33" motorId="1" offset="0" multiply="-1" name="jnecky"> 
+    <part name="headtop1" />
+  </link>
+
+  <link id="1" parent="0" motorId="3" offset="-0.79413" multiply="1" name="jshoulderp"> <!-- 45 model off 0.5002090 -->
+    <part name="shoulder" />
+  </link>
+
+  <link id="17" parent="0" motorId="2" offset="-0.79413" multiply="-1" name="jshoulderpmi" mirroring="jshoulderp"> 
+  </link>
+
+  <link id="2" parent="1" motorId="5" offset="-1.4648" multiply="-1" name="jshoulderr"> <!-- 90 model off 6.07531 -->
+    <part name="armside1" />
+    <part name="armside2" />
+    <part name="arm" />
+  </link>
+
+  <link id="18" parent="17" motorId="4" offset="-1.4648" multiply="1" name="jshoulderrmi" mirroring="jshoulderr"> 
+  </link>
+
+  <link id="3" parent="2" motorId="7" offset="0.22213" multiply="-1" name="jelbowr"> <!-- 30 model off 17.2731 -->
+    <part name="handside1" />
+    <part name="handside1joint" />
+    <part name="handside2" />
+    <part name="handside2joint" />
+    <part name="hand" />
+  </link>
+
+  <link id="19" parent="18" motorId="6" offset="0.22213" multiply="1" name="jelbowrmi" mirroring="jelbowr"> 
+  </link>
+
+  <link id="4" parent="0" motorId="8" offset="0" multiply="-1" name="jhipy"> 
+    <part name="hipy" />
+    <part name="hipyside11" />
+    <part name="hipyside12" />
+    <part name="hipyside13" />
+    <part name="hipyside21" />
+    <part name="hipyside22" />
+    <part name="hipyside23" />
+  </link>
+
+  <link id="20" parent="0" motorId="9" offset="0" multiply="1" name="jhipymi" mirroring="jhipy"> 
+  </link>
+
+  <link id="5" parent="4" motorId="10" offset="0" multiply="1" name="jhipr"> 
+    <part name="hipsquare" />
+  </link>
+
+  <link id="21" parent="20" motorId="11" offset="0" multiply="-1" name="jhiprmi" mirroring="jhipr"> 
+  </link>
+
+  <link id="6" parent="5" motorId="12" offset="0" multiply="-1" name="jhipp"> 
+    <part name="hiptriangle" />
+    <part name="hiptriangle2" />
+    <part name="hiptriangle3" />
+  </link>
+
+  <link id="22" parent="21" motorId="13" offset="0" multiply="1" name="jhippmi" mirroring="jhipp"> 
+  </link>
+  
+  <link id="7" parent="6" motorId="14" offset="0" multiply="-1" name="jhiptrianglef"> 
+    <part name="legupperfrontside11" />
+    <part name="legupperfrontside12" />
+    <part name="legupperfrontside13" />
+    <part name="legupperfront1" />
+    <part name="legupperfront2" />
+    <part name="legupperfrontside21" />
+    <part name="legupperfrontside22" />
+    <part name="legupperfrontside23" />
+  </link> 
+
+  <link id="23" parent="22" motorId="15" offset="0" multiply="1" name="jhiptrianglefmi" mirroring="jhiptrianglef">
+  </link>
+
+  <link id="8" parent="7" motorId="14" offset="0" multiply="1" name="jkneep1"> 
+    <part name="knee" />
+  </link>
+
+  <link id="24" parent="23" motorId="15" offset="0" multiply="-1" name="jkneep1mi" mirroring="jkneep1">
+  </link>
+
+  <link id="9" parent="8" motorId="16" offset="0" multiply="-1" name="jkneep2">
+    <part name="leglowerfrontside11" />
+    <part name="leglowerfrontside12" />
+    <part name="leglowerfrontside13" />
+    <part name="leglowerfront1" />
+    <part name="leglowerfront2" />
+    <part name="leglowerfrontside21" />
+    <part name="leglowerfrontside22" />
+    <part name="leglowerfrontside23" />
+  </link>
+
+  <link id="25" parent="24" motorId="17" offset="0" multiply="1" name="jkneep2mi" mirroring="jkneep2">
+  </link>
+
+  <link id="10" parent="9" motorId="16" offset="0" multiply="1" name="jfoottrianglef"> 
+    <part name="foottriangle" />
+    <part name="foottriangle2" />
+    <part name="foottriangle3" />        
+  </link>
+
+  <link id="26" parent="25" motorId="17" offset="0" multiply="-1" name="jfoottrianglefmi" mirroring="jfoottrianglef">a
+  </link>
+  
+  <link id="11" parent="10" motorId="18" offset="0" multiply="1" name="janklep"> 
+    <part name="footsquare" />
+  </link>
+
+  <link id="27" parent="26" motorId="19" offset="0" multiply="-1" name="janklepmi" mirroring="janklep">
+  </link>
+
+  <link id="12" parent="11" motorId="20" offset="0" multiply="-1" name="jankler"> 
+    <part name="foot" />
+    <part name="foot2" />
+    <part name="foot3" />
+    <part name="foot4" />
+    <part name="foot5" />
+    <part name="footyside11" />
+    <part name="footyside12" />
+    <part name="footyside13" />
+    <part name="footyside21" />
+    <part name="footyside22" />
+    <part name="footyside23" />
+  </link>
+
+  <link id="28" parent="27" motorId="21" offset="0" multiply="1" name="janklermi" mirroring="jankler">
+  </link>
+
+  <link id="13" parent="6" motorId="14" offset="0" multiply="-1" name="jhiptriangleb"> 
+    <part name="legupperback" />
+    <part name="legupperbackside1" />
+    <part name="legupperbackside2" />
+  </link>
+
+  <link id="29" parent="22" motorId="15" offset="0" multiply="1" name="jhiptrianglebmi" mirroring="jhiptriangleb">
+  </link>
+
+  <link id="14" parent="13" motorId="12" offset="0" multiply="1" name="jkneep1b"> 
+  </link>
+
+  <link id="30" parent="29" motorId="13" offset="0" multiply="-1" name="jkneep1bmi" mirroring="jkneep1b">
+  </link>
+
+  <link id="15" parent="8" motorId="16" offset="0" multiply="-1" name="jkneep2b">
+    <part name="leglowerback" />
+    <part name="leglowerbackside1" />
+    <part name="leglowerbackside2" />
+  </link>
+  
+  <link id="31" parent="24" motorId="17" offset="0" multiply="1" name="jkneep2bmi" mirroring="jkneep2b">
+  </link>
+
+  <link id="16" parent="15" motorId="16" offset="0" multiply="1" name="jfoottriangleb"> 
+  </link>
+
+  <link id="32" parent="31" motorId="17" offset="0" multiply="-1" name="jfoottrianglebmi" mirroring="jfoottriangleb">
+  </link>
+
+
+  <!-- only insert non mirrored part in collision, mirrored part will be added automatically -->
+  <collmargin>
+
+    <default margin="6E-3" />
+
+    <coll obj1="bodybottom" obj2="headtop1" margin="-1" />
+    <coll obj1="neck" obj2="headtop1" margin="-1" />
+    <coll obj1="jbody" obj2="jshoulderp" margin="-1" />
+    <coll obj1="jbody" obj2="jhipy" margin="-1" />
+
+    <coll obj1="jbody" obj2="armside1" margin="0" /> 
+    <coll obj1="jbody" obj2="armside2" margin="0" /> 
+
+    <coll obj1="headtop1" obj2="jshoulderp" margin="-1" />
+    <coll obj1="headtop1" obj2="jhipy" margin="-1" />
+    <coll obj1="headtop1" obj2="jhipr" margin="-1" />
+    <coll obj1="headtop1" obj2="jhipp" margin="-1" />
+    <coll obj1="headtop1" obj2="jkneep1" margin="-1" />
+    <coll obj1="headtop1" obj2="jkneep2" margin="-1" />
+    <coll obj1="headtop1" obj2="jankler" margin="-1" />
+    <coll obj1="headtop1" obj2="janklep" margin="-1" />
+    <coll obj1="headtop1" obj2="jhiptrianglef" margin="-1" />
+    <coll obj1="headtop1" obj2="jhiptriangleb" margin="-1" />
+    <coll obj1="headtop1" obj2="jkneep2b" margin="-1" />
+    <coll obj1="headtop1" obj2="jfoottrianglef" margin="-1" />
+
+    <coll obj1="jshoulderp" obj2="jshoulderr" margin="-1" /> 
+    <coll obj1="jshoulderp" obj2="jelbowr" margin="-1" /> 
+    <coll obj1="jshoulderp" obj2="jhipy" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jhipr" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jhipp" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jkneep1" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jkneep2" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jankler" margin="-1" />
+    <coll obj1="jshoulderp" obj2="janklep" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jhiptrianglef" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jhiptriangleb" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jkneep2b" margin="-1" />
+    <coll obj1="jshoulderp" obj2="jfoottrianglef" margin="-1" />
+
+    <coll obj1="arm" obj2="jelbowr" margin="-1" /> 
+    <coll obj1="handside1joint" obj2="armside1" margin="-1" /> 
+    <coll obj1="handside2joint" obj2="armside2" margin="-1" /> 
+
+    <coll obj1="armside1" obj2="handside1" margin="3E-3" /> 
+    <coll obj1="armside2" obj2="handside2" margin="3E-3" /> 
+
+    <!-- jhipy -->
+    <coll obj1="jhipy" obj2="jhipr" margin="0E-3" /> 
+
+    <coll obj1="jhipy" obj2="jhipymi" margin="-1" />
+ 
+    <coll obj1="jhipy" obj2="jhipp" margin="0E-3" /> 
+
+    <coll obj1="jhipy" obj2="jhiprmi" margin="2E-3" /> 
+    <coll obj1="jhipymi" obj2="jhipr" margin="2E-3" /> 
+
+    <!--
+    <coll obj1="hipyside13" obj2="hiptriangle3" margin="-1" /> 
+    <coll obj1="hipyside12" obj2="hiptriangle3" margin="5E-3" /> 
+    -->
+
+    <!-- jhipr: hipsquare-->
+
+    <coll obj1="jhipr" obj2="jhipp" margin="2E-3" /> 
+    
+    <coll obj1="jhipr" obj2="legupperbackside1" margin="2E-3" /> 
+    <coll obj1="jhipr" obj2="legupperbackside2" margin="2E-3" /> 
+
+    <coll obj1="jhipr" obj2="legupperfrontside21" margin="5E-3" /> 
+    <coll obj1="jhipr" obj2="legupperfrontside11" margin="5E-3" /> 
+
+    <!-- jhipp: hiptriangle -->
+
+    <coll obj1="hiptriangle" obj2="legupperbackside1" margin="-1" /> 
+    <coll obj1="hiptriangle2" obj2="legupperbackside2" margin="-1" />  
+    
+    <coll obj1="hiptriangle3" obj2="legupperbackside1" margin="-1" /> 
+    <coll obj1="hiptriangle3" obj2="legupperbackside2" margin="-1" /> 
+    
+    <coll obj1="jhipp" obj2="jhiptrianglef" margin="-1" /> 
+
+    <coll obj1="hiptriangle" obj2="legupperfront1" margin="-1" />  
+    <coll obj1="hiptriangle2" obj2="legupperfront1" margin="-1" /> 
+    <coll obj1="hiptriangle" obj2="legupperback" margin="-1" />  
+    <coll obj1="hiptriangle2" obj2="legupperback" margin="-1" /> 
+
+    <!--
+    <coll obj1="hiptriangle" obj2="legupperfrontside11" margin="-1" />
+    <coll obj1="hiptriangle2" obj2="legupperfrontside21" margin="-1" /> 
+
+    <coll obj1="hiptriangle3" obj2="legupperfrontside11" margin="-1" /> 
+    <coll obj1="hiptriangle3" obj2="legupperfrontside21" margin="-1" /> 
+
+    <coll obj1="hiptriangle3" obj2="legupperfront2" margin="2E-3" /> 
+    <coll obj1="hiptriangle3" obj2="legupperfront1" margin="2E-3" /> 
+    -->
+
+    <!-- knee -->
+
+    <coll obj1="jkneep1" obj2="legupperback" margin="0E-3" /> 
+    <coll obj1="jkneep1" obj2="leglowerback" margin="0E-3" /> 
+
+    <coll obj1="jkneep1" obj2="legupperfront1" margin="1E-3" /> 
+    <coll obj1="jkneep1" obj2="leglowerfront1" margin="1E-3" /> 
+
+    <coll obj1="jkneep1" obj2="legupperfrontside23" margin="2E-3" />
+    <coll obj1="jkneep1" obj2="legupperfrontside13" margin="2E-3" />
+    <coll obj1="jkneep1" obj2="leglowerfrontside23" margin="2E-3" />
+    <coll obj1="jkneep1" obj2="leglowerfrontside13" margin="2E-3" />
+
+    <coll obj1="jkneep1" obj2="legupperbackside1" margin="2E-3" /> 
+    <coll obj1="jkneep1" obj2="legupperbackside2" margin="2E-3" />
+    <coll obj1="jkneep1" obj2="leglowerbackside1" margin="2E-3" /> 
+    <coll obj1="jkneep1" obj2="leglowerbackside2" margin="2E-3" />
+
+    <coll obj1="jkneep1" obj2="legupperfront2" margin="2E-3" />
+    <coll obj1="jkneep1" obj2="leglowerfront2" margin="2E-3" />
+
+    <coll obj1="jkneep1" obj2="legupperfrontside21" margin="-1" /> 
+    <coll obj1="jkneep1" obj2="legupperfrontside11" margin="-1" /> 
+    <coll obj1="jkneep1" obj2="leglowerfrontside21" margin="-1" /> 
+    <coll obj1="jkneep1" obj2="leglowerfrontside11" margin="-1" /> 
+
+    <!--
+    <coll obj1="jkneep1" obj2="jkneep2" margin="2E-3" /> 
+    -->
+
+    <!-- upperside -->
+
+    <coll obj1="legupperfrontside12" obj2="legupperbackside1" margin="2E-3" />
+    <coll obj1="legupperfrontside22" obj2="legupperbackside2" margin="2E-3" />
+    <coll obj1="leglowerfrontside12" obj2="leglowerbackside1" margin="2E-3" />
+    <coll obj1="leglowerfrontside22" obj2="leglowerbackside2" margin="2E-3" />
+
+    <coll obj1="jhiptriangleb" obj2="jkneep2b" margin="3E-3" />
+
+
+    <coll obj1="legupperfrontside12" obj2="legupperfrontside12mi" margin="3E-3" />
+    <coll obj1="leglowerfrontside12" obj2="leglowerfrontside12mi" margin="3E-3" />
+    <coll obj1="legupperfrontside12" obj2="leglowerfrontside12mi" margin="3E-3" />
+    <coll obj1="leglowerfrontside12" obj2="legupperfrontside12mi" margin="3E-3" />
+
+
+    <coll obj1="jhiptrianglef" obj2="jhiptrianglefmi" margin="-1" />
+
+    <coll obj1="legupperfrontside23" obj2="leglowerfrontside23" margin="4E-3" />
+    <coll obj1="legupperfrontside13" obj2="leglowerfrontside13" margin="4E-3" />
+
+    <coll obj1="leglowerfront1" obj2="leglowerbackside2" margin="5E-3" />
+    <coll obj1="leglowerfront1" obj2="leglowerbackside1" margin="5E-3" />
+    <coll obj1="legupperfront1" obj2="legupperbackside2" margin="5E-3" />
+    <coll obj1="legupperfront1" obj2="legupperbackside1" margin="5E-3" />
+
+    <coll obj1="leglowerback" obj2="leglowerfrontside22" margin="-1" />
+    <coll obj1="leglowerback" obj2="leglowerfrontside12" margin="-1" />
+    <coll obj1="legupperback" obj2="legupperfrontside22" margin="-1" />
+    <coll obj1="legupperback" obj2="legupperfrontside12" margin="-1" />
+
+    <coll obj1="legupperfrontside21" obj2="legupperbackside2" margin="3E-3" />
+    <coll obj1="legupperfrontside11" obj2="legupperbackside1" margin="3E-3" />
+    <coll obj1="leglowerfrontside21" obj2="leglowerbackside2" margin="3E-3" />
+    <coll obj1="leglowerfrontside11" obj2="leglowerbackside1" margin="3E-3" />
+
+    <coll obj1="legupperback" obj2="legupperfront1" margin="5E-3" />
+    <coll obj1="leglowerback" obj2="leglowerfront1" margin="5E-3" />
+
+    <coll obj1="leglowerbackside1" obj2="footyside23" margin="3E-3" />  
+    <coll obj1="legupperbackside1" obj2="hipyside23" margin="3E-3" />  
+
+    <coll obj1="footyside12" obj2="leglowerfront2" margin="2E-3" />  
+    <coll obj1="footyside13" obj2="leglowerfront2" margin="2E-3" />  
+    <coll obj1="hipyside12" obj2="legupperfront2" margin="2E-3" />  
+    <coll obj1="hipyside13" obj2="legupperfront2" margin="2E-3" />  
+
+    <coll obj1="leglowerfrontside21" obj2="footyside13" margin="-1" />
+    <coll obj1="leglowerfrontside11" obj2="footyside12" margin="-1" />
+    <coll obj1="legupperfrontside21" obj2="hipyside13" margin="-1" />
+    <coll obj1="legupperfrontside11" obj2="hipyside12" margin="-1" />
+
+    <coll obj1="footyside13" obj2="leglowerfront1" margin="3E-3" />  
+    <coll obj1="hipyside13" obj2="legupperfront1" margin="3E-3" />  
+    <coll obj1="footyside12" obj2="leglowerfront1" margin="3E-3" />  
+    <coll obj1="hipyside12" obj2="legupperfront1" margin="3E-3" />  
+
+
+
+    <!-- jfoottrianglef: foottriangle-->
+    <coll obj1="foottriangle" obj2="leglowerbackside1" margin="-1" />  
+    <coll obj1="foottriangle2" obj2="leglowerbackside2" margin="-1" /> 
+
+    <coll obj1="foottriangle3" obj2="leglowerbackside1" margin="-1" /> 
+    <coll obj1="foottriangle3" obj2="leglowerbackside2" margin="-1" /> 
+
+    <coll obj1="foottriangle3" obj2="janklep" margin="-1" /> 
+
+    <coll obj1="footyside13" obj2="foottriangle3" margin="-1" /> 
+
+    <coll obj1="jfoottrianglef" obj2="jkneep2" margin="-1" />
+
+    <coll obj1="foottriangle" obj2="foot4" margin="-1" />  
+    <coll obj1="foottriangle2" obj2="foot3" margin="-1" /> 
+
+    <coll obj1="jfoottrianglef" obj2="footyside13" margin="-1" /> 
+    <coll obj1="jfoottrianglef" obj2="footyside23" margin="-1" /> 
+    <coll obj1="foottriangle3" obj2="footyside12" margin="3E-3" />
+
+    <coll obj1="foottriangle" obj2="leglowerfrontside11" margin="-1" /> 
+    <coll obj1="foottriangle2" obj2="leglowerfrontside21" margin="-1" /> 
+    <coll obj1="hiptriangle" obj2="legupperfrontside11" margin="-1" /> 
+    <coll obj1="hiptriangle2" obj2="legupperfrontside21" margin="-1" /> 
+
+    <coll obj1="foottriangle" obj2="leglowerfront1" margin="-1" />  
+    <coll obj1="foottriangle2" obj2="leglowerfront1" margin="-1" /> 
+    <coll obj1="foottriangle" obj2="leglowerback" margin="-1" />  
+    <coll obj1="foottriangle2" obj2="leglowerback" margin="-1" /> 
+
+    <coll obj1="foottriangle3" obj2="leglowerfront1" margin="-1" /> 
+    <coll obj1="foottriangle3" obj2="leglowerback" margin="-1" /> 
+    <coll obj1="leglowerfront1" obj2="leglowerback" margin="-1" /> 
+
+    <!--
+    <coll obj1="foottriangle" obj2="leglowerfrontside11" margin="-1" /> 
+    <coll obj1="foottriangle2" obj2="leglowerfrontside21" margin="-1" /> 
+    <coll obj1="foottriangle3" obj2="leglowerfrontside11" margin="-1" /> 
+    <coll obj1="foottriangle3" obj2="leglowerfrontside21" margin="-1" />
+    <coll obj1="foottriangle3" obj2="leglowerfront1" margin="-1" /> 
+    <coll obj1="foottriangle3" obj2="leglowerfront2" margin="2E-3" />  
+    -->
+
+    <!-- janklep: footsquare -->
+    <coll obj1="janklep" obj2="footyside11" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="footyside12" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="footyside13" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="footyside21" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="footyside22" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="footyside23" margin="2E-3" /> 
+
+    <coll obj1="janklep" obj2="foottriangle" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="foottriangle2" margin="2E-3" /> 
+
+    <coll obj1="janklep" obj2="leglowerbackside1" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="leglowerbackside2" margin="2E-3" /> 
+
+    <coll obj1="janklep" obj2="foot2" margin="2E-3" /> 
+    <coll obj1="janklep" obj2="foot3" margin="4E-3" /> 
+    <coll obj1="janklep" obj2="foot4" margin="4E-3" /> 
+    <coll obj1="janklep" obj2="foot5" margin="2E-3" /> 
+
+    <coll obj1="janklep" obj2="leglowerfrontside21" margin="-1" /> 
+    <coll obj1="janklep" obj2="leglowerfrontside11" margin="-1" /> 
+
+    <!-- jankler: foooty -->
+
+    <coll obj1="jankler" obj2="janklermi" margin="4E-3" />
+
+    <!--
+    <coll obj1="jankler" obj2="janklep" margin="3E-3" /> 
+    -->
+  </collmargin>
+  
+
+</robot>

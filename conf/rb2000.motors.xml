@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors num="13" type="vs-sv410" min="-1.7453292519943293" max="1.7453292519943293" model="v4gModel.xml">
+
+    <motor id="6" name="L Hip P" />
+    <motor id="8" name="L Knee P" />
+    <motor id="10" name="L Ankle P" />
+    <motor id="12" name="L Ankle R" />
+
+    <motor id="5" name="R Hip P" />
+    <motor id="7" name="R Knee P" />
+    <motor id="9" name="R Ankle P" />
+    <motor id="11" name="R Ankle R" />
+
+    <motor id="2" name="L Shoulder P" />
+    <motor id="4" name="L Shoulder R" />
+
+    <motor id="1" name="R Shoulder P" />
+    <motor id="3" name="R Shoulder R" />
+
+    <motor id="0" name="Neck Y" />
+
+  </motors>
+</robot>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors num="32" type="vs-sv410" min="-1.7453292519943293" max="1.7453292519943293" model="v4gModel.xml">
+    <motor id="0" name="Neck R" />
+    <motor id="1" name="Neck P" />
+    <motor id="2" name="Neck Y" />
+    <motor id="3" name="Waist Y" />
+    <motor id="4" name="R Shoulder P" />
+    <motor id="5" name="L Shoulder P" />
+    <motor id="6" name="R Shoulder R" />
+    <motor id="7" name="L Shoulder R" />
+    <motor id="8" name="R Elbow Y" />
+    <motor id="9" name="L Elbow Y" />
+    <motor id="10" name="R Elbow R" />
+    <motor id="11" name="L Elbow R" />
+    <motor id="12" name="R Hand Y" />
+    <motor id="13" name="L Hand Y" />
+    <motor id="14" name="R Finger1 R" />
+    <motor id="15" name="L Finger1 R" />
+    <motor id="16" name="R Finger2 R" />
+    <motor id="17" name="L Finger2 R" />
+    <motor id="18" name="R Hip Y" />
+    <motor id="19" name="L Hip Y" />
+    <motor id="20" name="R Hip R" />
+    <motor id="21" name="L Hip R" />
+    <motor id="22" name="R Hip P" />
+    <motor id="23" name="L Hip P" />
+    <motor id="24" name="R KneeU P" />
+    <motor id="25" name="L KneeU P" />
+    <motor id="26" name="R KneeL P" />
+    <motor id="27" name="L KneeL P" />
+    <motor id="28" name="R Ankle P" />
+    <motor id="29" name="L Ankle P" />
+    <motor id="30" name="R Ankle R" />
+    <motor id="31" name="L Ankle R" />
+  </motors>
+</robot>

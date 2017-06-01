@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors calibmin="-5DC0" calibmax="55F0">
+    <motor id="0"> <calib min="-4E20" max="4E20" zero="-1C3" /> </motor>
+    <motor id="1"> <calib min="-55F0" max="55F0" zero="-2710" /> </motor>
+    <motor id="2"> <calib min="-55F0" max="4E20" zero="2710" /> </motor>
+    <motor id="3"> <calib min="-5DC0" max="4E20" zero="E74" /> </motor>
+    <motor id="4"> <calib min="-59D8" max="55F0" zero="-E74" /> </motor>
+    <motor id="5"> <calib min="-5208" max="2710" zero="-251C" /> </motor>
+    <motor id="6"> <calib min="-5460" max="4268" zero="23BD" /> </motor>
+    <motor id="7"> <calib min="-32C8" max="4E20" zero="4268" /> </motor>
+    <motor id="8"> <calib min="-4268" max="4A38" zero="-4268" /> </motor>
+    <motor id="9"> <calib min="-4650" max="36B0" zero="64" /> </motor>
+    <motor id="10"> <calib min="-32C8" max="4650" zero="0" /> </motor>
+    <motor id="11"> <calib min="-5208" max="16A8" zero="0" /> </motor>
+    <motor id="12"> <calib min="-1770" max="5208" zero="0" /> </motor>
+  </motors>
+</robot>

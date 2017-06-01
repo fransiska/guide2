@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config>
+  <configfile id="nishigoriArmGui" filename="conf/nishigoriArm.gui.xml" />
+  <configfile id="nishigoriArmMotors" filename="conf/nishigoriArm.motors.xml" /> 
+  <configfile id="nishigoriArmCalib" filename="conf/nishigoriArm.calib.xml" />
+  <configfile id="nishigoriArmLimbs" filename="conf/nishigoriArm.limbs.xml" />
+  <configfile id="nishigoriArmGuide" filename="conf/nishigoriArm.guide.xml" />
+  <configfile id="nishigoriArmSensors"  filename="conf/nishigoriArm.sensors.xml" />
+  <configfile id="nishigoriArmPostures" filename="conf/nishigoriArm.postures.xml" />
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config>
+  <configfile id="gui" filename="conf/guide.gui.xml" />-->
+  <configfile id="motors" filename="conf/neony.motors.xml" /> 
+  <configfile id="calib" filename="conf/neony.calib.xml" />
+
+  <configfile id="limbs" filename="conf/neony.limbs.xml" />
+  <configfile id="neonyGuide" filename="conf/neony.guide.xml" />
+
+</config>

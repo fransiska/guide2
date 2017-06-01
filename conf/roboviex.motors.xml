@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors num="19" type="vs-sv410" min="-100" max="100" model="v4gModel.xml">
+    <motor id="0" name="R Eye LED" />
+    <motor id="1" name="L Eye LED" />
+    <motor id="2" name="Neck Y" />
+    <motor id="3" name="R Shoulder P" />
+    <motor id="4" name="L Shoulder P" />
+    <motor id="5" name="R Shoulder R" />
+    <motor id="6" name="L Shoulder R" />
+    <motor id="7" name="R Elbow R" />
+    <motor id="8" name="L Elbow R" />
+    <motor id="9" name="R Hip R" />
+    <motor id="10" name="L Hip R" />
+    <motor id="11" name="R Hip P" />
+    <motor id="12" name="L Hip P" />
+    <motor id="13" name="R Knee P" />
+    <motor id="14" name="L Knee P" />
+    <motor id="15" name="R Ankle P" />
+    <motor id="16" name="L Ankle P" />
+    <motor id="17" name="R Ankle R" />
+    <motor id="18" name="L Ankle R" />
+  </motors>
+</robot>

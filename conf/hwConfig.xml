@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<robot>
+  <hardware config="m on 
+		    s on 
+		    ug on" 
+	    />
+</robot>

@@ -1,0 +1,28 @@
+#please adjust these to your own program!
+
+
+#CPPFLAGS = -ftime-report
+
+PROGS = util/collChecker
+
+#for libs and flags
+USEGTK = 1
+USEGTKGL = 1
+
+#sources
+#WINDOWS = guideModelWindow.cpp guideDebugWindow.cpp guidePostureWindow.cpp floatingModelWindow.cpp    postureDrawer.cpp postureCaptureWindow.cpp
+#guideHardwareWindow.cpp 
+#GUI = widgetDrawer.cpp guideWindow.cpp guideCanvas.cpp drawable.cpp $(WINDOWS) $(DIALOGS) 
+GUIDE2 =  teachPower.cpp guideTeachList.cpp teachIO.cpp   guideDescription.cpp   inputDialog.cpp yesNoDialog.cpp connectionCell.cpp guideState.cpp guideMotionManagement.cpp # guideMain.cpp guideHistory.cpp guideLogic.cpp motionLine.cpp guideMenu.cpp gtkglareaBox.cpp readablePostureDrawer.cpp  guideLog.cpp guideTeachList.cpp teachIO.cpp   $(GUI) 
+
+MODEL = gtkglareaBox.cpp readablePostureDrawer.cpp postureDrawer.cpp postureCaptureWindow.cpp floatingModelWindow.cpp guideModelWindow.cpp
+
+#GYRO= $(HB)/robot/gyroCalibManager.cpp  
+SENSORCALIB=$(PPATH)/app/guide2/sensorCalibWindow/sensorCalib.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibWindow.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibMenu.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibDrawingWidget.cpp 
+
+
+#GYROCALIB=$(PPATH)/app/guide2/gyroCalibWindow/gyroCalib.cpp $(PPATH)/app/guide2/gyroCalibWindow/gyroCalibWindow.cpp $(PPATH)/app/guide2/gyroCalibWindow/gyroCalibBox.cpp
+
+SOURCES =  dataAnalCheckCollision2.cpp  $(MODEL) $(TINYXML) $(GUIDE2) $(CONVEX) $(GRAPHICS) $(MATH) $(SENSORCALIB) $(CORE) $(ROBOTFRAME)  $(ROBOT) $(HELIUMS)  #$(GYROCALIB)   $(CELL) $(LAPACK) 
+
+include ../../Makehel

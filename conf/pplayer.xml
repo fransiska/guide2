@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<config> 
+   <configfile id="target" filename="conf/pplayer.neony.xml" />
+   <configfile id="hwConfig" filename="conf/probeConfig.xml" />
+</config>

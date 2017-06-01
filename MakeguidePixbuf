@@ -1,0 +1,48 @@
+PPATH= ../..
+THIRD= ../../../third
+HELIUM= ../../helium
+HB = ../../heliumBased
+
+#Guide
+MATH=$(HELIUM)/math/lapackUtil.cpp $(HELIUM)/math/filter.cpp $(HELIUM)/math/algebra.cpp 
+TINYXML= $(THIRD)/tinyxml/tinyxml.cpp $(THIRD)/tinyxml/tinyxmlerror.cpp $(THIRD)/tinyxml/tinyxmlparser.cpp  $(THIRD)/tinyxml/tinystr.cpp
+CONVEX = $(HB)/convex/convexModel.cpp $(HB)/convex/convexModelXml.cpp $(HB)/convex/boxNode.cpp $(HB)/convex/jointParser.cpp $(HB)/convex/drawConvex.cpp 
+MODEL = floatingModelWindow.cpp gtkglareaBox.cpp guideModelWindow.cpp 
+GRAPHICS = $(HELIUM)/graphics/glDraw.cpp $(HELIUM)/graphics/glUtil.cpp $(HELIUM)/graphics/glTexture.cpp $(HELIUM)/graphics/pixelReader.cpp $(HELIUM)/wrap/osmesa/drawingCanvas.cpp
+#PANELS = motionLine.cpp guideMenu.cpp inputDialog.cpp yesNoDialog.cpp guideDebugWindow.cpp guideTeachWindow.cpp guideHardwareWindow.cpp guidePostureWindow.cpp 
+#guideErrorDialog.cpp
+FRAME = connectionCell.cpp  #$(HELIUM)/robot/frame.cpp guideData.cpp motionParser.cpp  
+#GTKGLAREA = $(THIRD)/gtkgl/gtkglarea.cpp $(THIRD)/gtkgl/gdkgl.cpp
+
+HROBOT = $(HELIUM)/robot/motorOffMode.cpp $(HELIUM)/robot/motorPlannerMode.cpp $(HELIUM)/robot/motorInterface.cpp $(HELIUM)/robot/motorExceptionHandler.cpp
+HELIUMS = $(HELIUM)/thread/thread.cpp  $(HELIUM)/thread/mutex.cpp $(HELIUM)/thread/semaphore.cpp $(HELIUM)/system/remoteCell.cpp $(HELIUM)/system/cellClient.cpp $(HELIUM)/system/basicCell.cpp $(HELIUM)/net/clientSocket.cpp $(HELIUM)/net/netSocket.cpp $(HELIUM)/xml/xmlLoader.cpp $(HELIUM)/robot/application.cpp $(HELIUM)/robot/config.cpp $(HELIUM)/robot/robotDefaults.cpp $(HELIUM)/robot/limitFactory.cpp $(HELIUM)/core/basicEnum.cpp $(HELIUM)/core/enum.cpp  $(HELIUM)/system/valueProxy.cpp $(HELIUM)/util/debug.cpp  $(HELIUM)/net/commandSplitter.cpp 
+#$(HELIUM)/gtk/gtkSpool.cpp
+DEBUG= $(HELIUM)/graphics/ppm.cpp
+GUIDE2 = $(FRAME) $(HELIUMS) $(PANELS)  $(HROBOT) $(DEBUG) $(GTKGLAREA) $(MODEL)
+
+#SensorCalib
+#ROBOT= $(HB)/robot/gyroCalibManager.cpp  
+#$(PPATH)/robot/sensorCalibXml.cpp  
+#SENSORCALIB=$(PPATH)/app/sensorCalibWindow/sensorCalib.cpp $(PPATH)/app/sensorCalibWindow/sensorCalibWindow.cpp $(PPATH)/app/sensorCalibWindow/sensorCalibMenu.cpp $(PPATH)/app/sensorCalibWindow/sensorCalibDrawingWidget.cpp  $(GUIOBJECTS) $(VSTONE) $(ROBOT)
+
+#GyroCalib
+#GYROCALIB=$(PPATH)/app/gyroCalibWindow/gyroCalib.cpp $(PPATH)/app/gyroCalibWindow/gyroCalibWindow.cpp $(PPATH)/app/gyroCalibWindow/gyroCalibBox.cpp $(SIMUL) $(PPATH)/app/gyroCalibWindow/gyroCalibGlWindow.cpp
+
+OWNPATH = app/guide2
+PROGS=$(PPATH)/../bin/gui/guidePixbuf
+
+SOURCES = guidePixbufTest.cpp  guideConfig.cpp $(THREAD) $(TINYXML) $(CONVEX) $(GRAPHICS) $(MATH) $(SENSORCALIB) $(GYROCALIB) $(GUIDE2)
+#widgetDrawer.cpp guideWindow.cpp guideCanvas.cpp angleEntry.cpp drawable.cpp  
+#guideMain.cpp  $(HELIUM)/robot/framePolicy.cpp  $(HELIUM)/robot/policy.cpp
+
+#without gtkgl
+#CPPFLAGS = -g -Wall `pkg-config gtkmm-2.4 --cflags` -I $(PPATH) -I $(THIRD) -rdynamic -DdDOUBLE  
+#LIBS=`pkg-config gtkmm-2.4 --libs` -lgthread-2.0  -lglut -lGL -lGLU -rdynamic -llapack -lpthread -lode 
+
+#with gtkgl
+CPPFLAGS = -g -Wall `pkg-config gtkgl-2.0 gtkmm-2.4 --cflags` -I $(PPATH) -I $(THIRD) -rdynamic -DdDOUBLE  
+LIBS=`pkg-config gtkgl-2.0 gtkmm-2.4 --libs` -lgthread-2.0  -lglut -lGL -lGLU -rdynamic -llapack -lpthread -lode -lOSMesa
+
+include ../../Makearch3
+
+#todo: some old files are still included -> moved framepolicy, policy to the top order, so that the correct directory is used

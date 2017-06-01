@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config> 
+  <configfile id="motors" filename="conf/neony.motors.xml" />
+  <configfile id="calib" filename="conf/neony.calib.xml" />
+  <configfile id="rawID" filename="conf/neony.rawId.xml" />
+  <configfile id="tsensors" filename="conf/neony.sensors.xml" />
+</config>

@@ -1,0 +1,2174 @@
+<?xml version="1.0" ?>
+<boxnodes>
+    <boxnode name="b0000sbox" rotation="1 0 0 0" translation="0 0 0">
+        <boxnode name="b3000s" rotation="-0.0421258 0.999103 -0.00436126 -0.206508" translation="0.0508376 0.0035 0.0890554">
+            <boxnode name="shoulder" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.0502 0.03119 -0.04019" />
+                    <point coord="0.0502 -0.01219 -0.04019" />
+                    <point coord="0.0502 -0.01219 0.01979" />
+                    <point coord="0.0502 0.03119 0.01979" />
+                    <point coord="0 -0.01219 -0.04019" />
+                    <point coord="0 -0.01219 0.01979" />
+                    <point coord="0 0.03119 -0.04019" />
+                    <point coord="0 0.03119 0.01979" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 1" />
+                    <triangle index="2 1 3" />
+                    <triangle index="1 2 4" />
+                    <triangle index="5 4 2" />
+                    <triangle index="4 5 6" />
+                    <triangle index="7 6 5" />
+                    <triangle index="6 7 0" />
+                    <triangle index="3 0 7" />
+                    <triangle index="5 2 7" />
+                    <triangle index="3 7 2" />
+                    <triangle index="6 0 4" />
+                    <triangle index="1 4 0" />
+                </triangles>
+            </boxnode>
+            <boxnode name="armside1" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.00764 0.04219 -0.01323" />
+                    <point coord="0.00384 0.04219 -0.01764" />
+                    <point coord="0.01064 0.04219 -0.0815" />
+                    <point coord="0.04937 0.04219 -0.07738" />
+                    <point coord="0.04669 0.04219 -0.05221" />
+                    <point coord="0.02228 0.04219 -0.0187" />
+                    <point coord="0.01502 0.04219 -0.01245" />
+                    <point coord="0.00764 0.03119 -0.01323" />
+                    <point coord="0.01502 0.03119 -0.01245" />
+                    <point coord="0.02228 0.03119 -0.0187" />
+                    <point coord="0.04669 0.03119 -0.05221" />
+                    <point coord="0.04937 0.03119 -0.07738" />
+                    <point coord="0.01064 0.03119 -0.0815" />
+                    <point coord="0.00384 0.03119 -0.01764" />
+                </points>
+                <triangles>
+                    <triangle index="5 1 0" />
+                    <triangle index="6 5 0" />
+                    <triangle index="1 5 4" />
+                    <triangle index="1 4 3" />
+                    <triangle index="2 1 3" />
+                    <triangle index="7 13 8" />
+                    <triangle index="9 8 13" />
+                    <triangle index="12 10 9" />
+                    <triangle index="13 12 9" />
+                    <triangle index="11 10 12" />
+                    <triangle index="1 2 13" />
+                    <triangle index="12 13 2" />
+                    <triangle index="0 7 6" />
+                    <triangle index="8 6 7" />
+                    <triangle index="4 5 10" />
+                    <triangle index="9 10 5" />
+                    <triangle index="3 4 11" />
+                    <triangle index="10 11 4" />
+                    <triangle index="2 3 12" />
+                    <triangle index="11 12 3" />
+                    <triangle index="7 0 13" />
+                    <triangle index="1 13 0" />
+                    <triangle index="9 5 8" />
+                    <triangle index="6 8 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="arm" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.01029 0.03119 -0.10416" />
+                    <point coord="0.01029 -0.01219 -0.10416" />
+                    <point coord="0.05951 -0.01219 -0.09893" />
+                    <point coord="0.05951 0.03119 -0.09893" />
+                    <point coord="0.00626 0.03119 -0.06638" />
+                    <point coord="0.05549 0.03119 -0.06114" />
+                    <point coord="0.05549 -0.01219 -0.06114" />
+                    <point coord="0.00626 -0.01219 -0.06638" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 3" />
+                    <triangle index="0 3 1" />
+                    <triangle index="7 6 4" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hand" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.00018 0.0229 -0.20825" />
+                    <point coord="0.01383 0.03529 -0.13932" />
+                    <point coord="0.01383 -0.01789 -0.13932" />
+                    <point coord="0.00023 -0.01789 -0.20799" />
+                    <point coord="0.02873 0.0229 -0.2139" />
+                    <point coord="0.02878 -0.01789 -0.21364" />
+                    <point coord="0.04237 -0.01789 -0.14497" />
+                    <point coord="0.04237 0.03529 -0.14497" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 2" />
+                    <triangle index="1 0 2" />
+                    <triangle index="6 5 7" />
+                    <triangle index="4 7 5" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="handside1" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.0441 0.04219 -0.10122" />
+                    <point coord="0.03134 0.04219 -0.09005" />
+                    <point coord="0.00458 0.04219 -0.12062" />
+                    <point coord="0.00137 0.04219 -0.13685" />
+                    <point coord="0.0357 0.04219 -0.14365" />
+                    <point coord="0.0441 0.0339 -0.10122" />
+                    <point coord="0.0357 0.0339 -0.14365" />
+                    <point coord="0.00137 0.0339 -0.13685" />
+                    <point coord="0.00458 0.0339 -0.12062" />
+                    <point coord="0.03134 0.0339 -0.09005" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 0" />
+                    <triangle index="4 3 2" />
+                    <triangle index="0 4 2" />
+                    <triangle index="6 5 9" />
+                    <triangle index="9 8 6" />
+                    <triangle index="7 6 8" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="handside1joint" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.03134 0.04219 -0.09005" />
+                    <point coord="0.0219 0.04219 -0.08179" />
+                    <point coord="0.00939 0.04219 -0.09609" />
+                    <point coord="0.01882 0.04219 -0.10435" />
+                    <point coord="0.03134 0.0339 -0.09005" />
+                    <point coord="0.01882 0.0339 -0.10435" />
+                    <point coord="0.00939 0.0339 -0.09609" />
+                    <point coord="0.0219 0.0339 -0.08179" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 0" />
+                    <triangle index="0 3 2" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 6 4" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="handside2" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.00458 -0.02319 -0.12062" />
+                    <point coord="0.03134 -0.02319 -0.09005" />
+                    <point coord="0.0441 -0.02319 -0.10122" />
+                    <point coord="0.0357 -0.02319 -0.14365" />
+                    <point coord="0.00137 -0.02319 -0.13685" />
+                    <point coord="0.00458 -0.01489 -0.12062" />
+                    <point coord="0.00137 -0.01489 -0.13685" />
+                    <point coord="0.0357 -0.01489 -0.14365" />
+                    <point coord="0.0441 -0.01489 -0.10122" />
+                    <point coord="0.03134 -0.01489 -0.09005" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="2 0 4" />
+                    <triangle index="3 2 4" />
+                    <triangle index="6 5 7" />
+                    <triangle index="8 7 5" />
+                    <triangle index="5 9 8" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="handside2joint" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.03134 -0.02319 -0.09005" />
+                    <point coord="0.01882 -0.02319 -0.10435" />
+                    <point coord="0.01356 -0.02319 -0.09974" />
+                    <point coord="0.02607 -0.02319 -0.08544" />
+                    <point coord="0.03134 -0.01489 -0.09005" />
+                    <point coord="0.02607 -0.01489 -0.08544" />
+                    <point coord="0.01356 -0.01489 -0.09974" />
+                    <point coord="0.01882 -0.01489 -0.10435" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 0" />
+                    <triangle index="1 0 2" />
+                    <triangle index="4 7 6" />
+                    <triangle index="6 5 4" />
+                    <triangle index="0 4 3" />
+                    <triangle index="5 3 4" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 6 1" />
+                    <triangle index="7 1 6" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="armside2" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.04669 -0.02319 -0.05221" />
+                    <point coord="0.04937 -0.02319 -0.07738" />
+                    <point coord="0.01064 -0.02319 -0.0815" />
+                    <point coord="0.00374 -0.02319 -0.01666" />
+                    <point coord="0.00656 -0.02319 -0.01335" />
+                    <point coord="0.0161 -0.02319 -0.01233" />
+                    <point coord="0.02014 -0.02319 -0.01577" />
+                    <point coord="0.04669 -0.01219 -0.05221" />
+                    <point coord="0.02014 -0.01219 -0.01577" />
+                    <point coord="0.0161 -0.01219 -0.01233" />
+                    <point coord="0.00656 -0.01219 -0.01335" />
+                    <point coord="0.00374 -0.01219 -0.01666" />
+                    <point coord="0.01064 -0.01219 -0.0815" />
+                    <point coord="0.04937 -0.01219 -0.07738" />
+                </points>
+                <triangles>
+                    <triangle index="4 3 5" />
+                    <triangle index="6 5 3" />
+                    <triangle index="2 0 6" />
+                    <triangle index="3 2 6" />
+                    <triangle index="1 0 2" />
+                    <triangle index="8 11 10" />
+                    <triangle index="9 8 10" />
+                    <triangle index="11 8 7" />
+                    <triangle index="11 7 13" />
+                    <triangle index="12 11 13" />
+                    <triangle index="6 0 8" />
+                    <triangle index="7 8 0" />
+                    <triangle index="6 8 5" />
+                    <triangle index="9 5 8" />
+                    <triangle index="5 9 4" />
+                    <triangle index="10 4 9" />
+                    <triangle index="4 10 3" />
+                    <triangle index="11 3 10" />
+                    <triangle index="2 3 12" />
+                    <triangle index="11 12 3" />
+                    <triangle index="1 2 13" />
+                    <triangle index="12 13 2" />
+                    <triangle index="0 1 7" />
+                    <triangle index="13 7 1" />
+                </triangles>
+            </boxnode>
+        </boxnode>
+        <boxnode name="b2000sm" rotation="1 0 0 0" translation="-0.0375 0.013 -0.0052">
+            <boxnode name="hipy" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.0284 -0.02439 -0.0082" />
+                    <point coord="0.0284 -0.02439 0" />
+                    <point coord="0.0284 0.02439 0" />
+                    <point coord="0.0284 0.02439 -0.0082" />
+                    <point coord="-0.01899 -0.02439 -0.0082" />
+                    <point coord="-0.01899 0.02439 -0.0082" />
+                    <point coord="-0.01899 0.02439 0" />
+                    <point coord="-0.01899 -0.02439 0" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 3" />
+                    <triangle index="0 3 1" />
+                    <triangle index="7 6 4" />
+                    <triangle index="5 4 6" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 5 2" />
+                    <triangle index="6 2 5" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 7 0" />
+                    <triangle index="4 0 7" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hipyside11" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.01499 -0.03269 0" />
+                    <point coord="0.01499 -0.03269 0" />
+                    <point coord="0.01499 -0.03269 -0.0115" />
+                    <point coord="0.008 -0.03269 -0.0185" />
+                    <point coord="-0.01499 -0.03269 -0.0185" />
+                    <point coord="-0.01499 -0.02439 0" />
+                    <point coord="-0.01499 -0.02439 -0.0185" />
+                    <point coord="0.008 -0.02439 -0.0185" />
+                    <point coord="0.01499 -0.02439 -0.0115" />
+                    <point coord="0.01499 -0.02439 0" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 2" />
+                    <triangle index="1 0 2" />
+                    <triangle index="4 3 0" />
+                    <triangle index="9 7 6" />
+                    <triangle index="5 9 6" />
+                    <triangle index="8 7 9" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hipyside12" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.01499 -0.03269 -0.0185" />
+                    <point coord="0.008 -0.03269 -0.0185" />
+                    <point coord="0.008 -0.03269 -0.03206" />
+                    <point coord="-0.00543 -0.03269 -0.04549" />
+                    <point coord="-0.01499 -0.03269 -0.03593" />
+                    <point coord="-0.01499 -0.02439 -0.0185" />
+                    <point coord="-0.01499 -0.02439 -0.03593" />
+                    <point coord="-0.00543 -0.02439 -0.04549" />
+                    <point coord="0.008 -0.02439 -0.03206" />
+                    <point coord="0.008 -0.02439 -0.0185" />
+                </points>
+                <triangles>
+                    <triangle index="4 2 1" />
+                    <triangle index="0 4 1" />
+                    <triangle index="3 2 4" />
+                    <triangle index="8 7 6" />
+                    <triangle index="6 5 8" />
+                    <triangle index="9 8 5" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hipyside13" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0047 -0.02439 -0.04623" />
+                    <point coord="0.00278 -0.02439 -0.05371" />
+                    <point coord="0.01615 -0.02439 -0.04021" />
+                    <point coord="0.008 -0.02439 -0.03206" />
+                    <point coord="-0.00543 -0.02439 -0.04549" />
+                    <point coord="-0.0047 -0.0274 -0.04623" />
+                    <point coord="-0.00543 -0.0274 -0.04549" />
+                    <point coord="0.008 -0.0274 -0.03206" />
+                    <point coord="0.01615 -0.0274 -0.04021" />
+                    <point coord="0.00278 -0.0274 -0.05371" />
+                </points>
+                <triangles>
+                    <triangle index="4 3 2" />
+                    <triangle index="0 4 2" />
+                    <triangle index="2 1 0" />
+                    <triangle index="8 6 5" />
+                    <triangle index="9 8 5" />
+                    <triangle index="7 6 8" />
+                    <triangle index="0 5 4" />
+                    <triangle index="6 4 5" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hipyside21" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.01499 0.02439 0" />
+                    <point coord="0.01499 0.02439 -0.01574" />
+                    <point coord="0.012 0.02439 -0.01874" />
+                    <point coord="-0.01499 0.02439 -0.01874" />
+                    <point coord="-0.01499 0.02439 0" />
+                    <point coord="0.01499 0.03269 0" />
+                    <point coord="-0.01499 0.03269 0" />
+                    <point coord="-0.01499 0.03269 -0.01874" />
+                    <point coord="0.012 0.03269 -0.01874" />
+                    <point coord="0.01499 0.03269 -0.01574" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 4" />
+                    <triangle index="4 2 1" />
+                    <triangle index="0 4 1" />
+                    <triangle index="5 8 7" />
+                    <triangle index="6 5 7" />
+                    <triangle index="9 8 5" />
+                    <triangle index="9 5 1" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 1 8" />
+                    <triangle index="2 8 1" />
+                    <triangle index="7 8 3" />
+                    <triangle index="2 3 8" />
+                    <triangle index="6 7 4" />
+                    <triangle index="3 4 7" />
+                    <triangle index="5 6 0" />
+                    <triangle index="4 0 6" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hipyside23" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.01185 0.02439 -0.0338" />
+                    <point coord="0.01727 0.02439 -0.03922" />
+                    <point coord="0.00172 0.02439 -0.05477" />
+                    <point coord="-0.00521 0.02439 -0.04783" />
+                    <point coord="0.01185 0.0274 -0.0338" />
+                    <point coord="-0.00521 0.0274 -0.04783" />
+                    <point coord="0.00172 0.0274 -0.05477" />
+                    <point coord="0.01727 0.0274 -0.03922" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 2" />
+                    <triangle index="2 1 0" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 6 4" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hipsquare" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0217 -0.0217 -0.0575" />
+                    <point coord="0.0217 -0.0217 -0.0575" />
+                    <point coord="0.0217 0.0217 -0.0575" />
+                    <point coord="-0.0217 0.0217 -0.0575" />
+                    <point coord="-0.0217 -0.0217 -0.01549" />
+                    <point coord="-0.0217 0.0217 -0.01549" />
+                    <point coord="0.0217 0.0217 -0.01549" />
+                    <point coord="0.0217 -0.0217 -0.01549" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 1" />
+                    <triangle index="2 1 3" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 6 4" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hiptriangle" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.0259 0.00127 -0.02378" />
+                    <point coord="0.0259 0.01859 -0.04309" />
+                    <point coord="0.0259 0.01711 -0.0475" />
+                    <point coord="0.0259 -0.03065 -0.05694" />
+                    <point coord="0.0259 -0.03808 -0.05025" />
+                    <point coord="0.0259 -0.0078 -0.01665" />
+                    <point coord="0.02439 0.01711 -0.0475" />
+                    <point coord="0.02439 -0.03065 -0.05694" />
+                    <point coord="0.02439 0.01859 -0.04309" />
+                    <point coord="0.02439 0.00127 -0.02378" />
+                    <point coord="0.02439 -0.0078 -0.01665" />
+                    <point coord="0.02439 -0.03808 -0.05025" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="2 0 5" />
+                    <triangle index="3 2 5" />
+                    <triangle index="5 4 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="7 6 3" />
+                    <triangle index="1 2 8" />
+                    <triangle index="6 8 2" />
+                    <triangle index="0 1 9" />
+                    <triangle index="8 9 1" />
+                    <triangle index="4 5 11" />
+                    <triangle index="10 11 5" />
+                    <triangle index="3 4 7" />
+                    <triangle index="11 7 4" />
+                    <triangle index="9 8 6" />
+                    <triangle index="7 10 9" />
+                    <triangle index="6 7 9" />
+                    <triangle index="11 10 7" />
+                    <triangle index="5 0 10" />
+                    <triangle index="9 10 0" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hiptriangle2" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0259 -0.00665 -0.01537" />
+                    <point coord="-0.0259 -0.03808 -0.05025" />
+                    <point coord="-0.0259 -0.03065 -0.05694" />
+                    <point coord="-0.0259 0.01711 -0.0475" />
+                    <point coord="-0.0259 0.01854 -0.04322" />
+                    <point coord="-0.0259 -0.00096 -0.01905" />
+                    <point coord="-0.02439 -0.00665 -0.01537" />
+                    <point coord="-0.02439 -0.00096 -0.01905" />
+                    <point coord="-0.02439 0.01854 -0.04322" />
+                    <point coord="-0.02439 0.01711 -0.0475" />
+                    <point coord="-0.02439 -0.03065 -0.05694" />
+                    <point coord="-0.02439 -0.03808 -0.05025" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="2 0 5" />
+                    <triangle index="3 2 5" />
+                    <triangle index="5 4 3" />
+                    <triangle index="8 7 9" />
+                    <triangle index="9 7 6" />
+                    <triangle index="10 9 6" />
+                    <triangle index="6 11 10" />
+                    <triangle index="0 1 6" />
+                    <triangle index="11 6 1" />
+                    <triangle index="4 5 8" />
+                    <triangle index="7 8 5" />
+                    <triangle index="3 4 9" />
+                    <triangle index="8 9 4" />
+                    <triangle index="2 3 10" />
+                    <triangle index="9 10 3" />
+                    <triangle index="1 2 11" />
+                    <triangle index="10 11 2" />
+                    <triangle index="5 0 7" />
+                    <triangle index="6 7 0" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hiptriangle3" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0259 -0.03808 -0.05025" />
+                    <point coord="0.0259 -0.03808 -0.05025" />
+                    <point coord="0.0259 -0.03065 -0.05694" />
+                    <point coord="-0.0259 -0.03065 -0.05694" />
+                    <point coord="-0.0259 -0.03707 -0.04914" />
+                    <point coord="-0.0259 -0.02964 -0.05583" />
+                    <point coord="0.0259 -0.02964 -0.05583" />
+                    <point coord="0.0259 -0.03707 -0.04914" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="4 7 5" />
+                    <triangle index="6 5 7" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfrontside11" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.0269 -0.028 -0.05438" />
+                    <point coord="0.0269 -0.028 -0.09849" />
+                    <point coord="0.0269 -0.01049 -0.09849" />
+                    <point coord="0.0269 -0.01049 -0.039" />
+                    <point coord="0.0269 -0.01796 -0.037" />
+                    <point coord="0.03089 -0.028 -0.05438" />
+                    <point coord="0.03089 -0.01796 -0.037" />
+                    <point coord="0.03089 -0.01049 -0.039" />
+                    <point coord="0.03089 -0.01049 -0.09849" />
+                    <point coord="0.03089 -0.028 -0.09849" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="0 4 3" />
+                    <triangle index="6 5 7" />
+                    <triangle index="7 5 9" />
+                    <triangle index="8 7 9" />
+                    <triangle index="9 5 1" />
+                    <triangle index="0 1 5" />
+                    <triangle index="8 9 2" />
+                    <triangle index="1 2 9" />
+                    <triangle index="7 8 3" />
+                    <triangle index="2 3 8" />
+                    <triangle index="6 7 4" />
+                    <triangle index="3 4 7" />
+                    <triangle index="5 6 0" />
+                    <triangle index="4 0 6" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfrontside12" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.03519 -0.028 -0.05438" />
+                    <point coord="0.03519 -0.02222 -0.04438" />
+                    <point coord="0.03519 -0.01018 -0.04657" />
+                    <point coord="0.03519 -0.002 -0.05476" />
+                    <point coord="0.03519 -0.002 -0.09849" />
+                    <point coord="0.03519 -0.028 -0.09849" />
+                    <point coord="0.03089 -0.028 -0.05438" />
+                    <point coord="0.03089 -0.028 -0.09849" />
+                    <point coord="0.03089 -0.002 -0.09849" />
+                    <point coord="0.03089 -0.002 -0.05476" />
+                    <point coord="0.03089 -0.01018 -0.04657" />
+                    <point coord="0.03089 -0.02222 -0.04438" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="0 5 3" />
+                    <triangle index="4 3 5" />
+                    <triangle index="6 9 8" />
+                    <triangle index="7 6 8" />
+                    <triangle index="10 9 6" />
+                    <triangle index="6 11 10" />
+                    <triangle index="5 0 7" />
+                    <triangle index="6 7 0" />
+                    <triangle index="4 5 8" />
+                    <triangle index="7 8 5" />
+                    <triangle index="3 4 9" />
+                    <triangle index="8 9 4" />
+                    <triangle index="2 3 10" />
+                    <triangle index="9 10 3" />
+                    <triangle index="1 2 11" />
+                    <triangle index="10 11 2" />
+                    <triangle index="0 1 6" />
+                    <triangle index="11 6 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfrontside13" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.02439 -0.02449 -0.09849" />
+                    <point coord="0.02439 -0.02449 -0.10899" />
+                    <point coord="0.02439 -0.00449 -0.10899" />
+                    <point coord="0.02439 -0.00449 -0.09849" />
+                    <point coord="0.0269 -0.02449 -0.09849" />
+                    <point coord="0.0269 -0.00449 -0.09849" />
+                    <point coord="0.0269 -0.00449 -0.10899" />
+                    <point coord="0.0269 -0.02449 -0.10899" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 3" />
+                    <triangle index="0 3 1" />
+                    <triangle index="7 6 4" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfront1" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.01799 -0.00449 -0.075" />
+                    <point coord="-0.01799 -0.00449 -0.075" />
+                    <point coord="-0.01799 -0.02349 -0.075" />
+                    <point coord="0.01799 -0.02349 -0.075" />
+                    <point coord="0.01799 -0.00449 -0.068" />
+                    <point coord="0.01799 -0.02349 -0.068" />
+                    <point coord="-0.01799 -0.02349 -0.068" />
+                    <point coord="-0.01799 -0.00449 -0.068" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="4 7 5" />
+                    <triangle index="6 5 7" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfront2" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0269 -0.0348 -0.0665" />
+                    <point coord="0.0269 -0.0348 -0.0665" />
+                    <point coord="0.0269 -0.0348 -0.09149" />
+                    <point coord="-0.0269 -0.0348 -0.09149" />
+                    <point coord="-0.0269 -0.025 -0.0665" />
+                    <point coord="-0.0269 -0.025 -0.09149" />
+                    <point coord="0.0269 -0.025 -0.09149" />
+                    <point coord="0.0269 -0.025 -0.0665" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="6 5 7" />
+                    <triangle index="4 7 5" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfrontside21" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0269 -0.01049 -0.09849" />
+                    <point coord="-0.0269 -0.028 -0.09849" />
+                    <point coord="-0.0269 -0.028 -0.05438" />
+                    <point coord="-0.0269 -0.01796 -0.037" />
+                    <point coord="-0.0269 -0.01049 -0.039" />
+                    <point coord="-0.03089 -0.01049 -0.09849" />
+                    <point coord="-0.03089 -0.01049 -0.039" />
+                    <point coord="-0.03089 -0.01796 -0.037" />
+                    <point coord="-0.03089 -0.028 -0.05438" />
+                    <point coord="-0.03089 -0.028 -0.09849" />
+                </points>
+                <triangles>
+                    <triangle index="4 2 1" />
+                    <triangle index="0 4 1" />
+                    <triangle index="3 2 4" />
+                    <triangle index="9 8 5" />
+                    <triangle index="6 5 8" />
+                    <triangle index="8 7 6" />
+                    <triangle index="9 5 1" />
+                    <triangle index="0 1 5" />
+                    <triangle index="8 9 2" />
+                    <triangle index="1 2 9" />
+                    <triangle index="7 8 3" />
+                    <triangle index="2 3 8" />
+                    <triangle index="6 7 4" />
+                    <triangle index="3 4 7" />
+                    <triangle index="5 6 0" />
+                    <triangle index="4 0 6" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfrontside22" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.03519 -0.002 -0.05476" />
+                    <point coord="-0.03519 -0.01024 -0.04651" />
+                    <point coord="-0.03519 -0.01981 -0.04482" />
+                    <point coord="-0.03519 -0.02223 -0.04439" />
+                    <point coord="-0.03519 -0.02345 -0.04651" />
+                    <point coord="-0.03519 -0.028 -0.05438" />
+                    <point coord="-0.03519 -0.028 -0.09849" />
+                    <point coord="-0.03519 -0.002 -0.09849" />
+                    <point coord="-0.03089 -0.002 -0.05476" />
+                    <point coord="-0.03089 -0.002 -0.09849" />
+                    <point coord="-0.03089 -0.028 -0.09849" />
+                    <point coord="-0.03089 -0.028 -0.05438" />
+                    <point coord="-0.03089 -0.02345 -0.04651" />
+                    <point coord="-0.03089 -0.02223 -0.04439" />
+                    <point coord="-0.03089 -0.01981 -0.04482" />
+                    <point coord="-0.03089 -0.01024 -0.04651" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 4" />
+                    <triangle index="4 3 2" />
+                    <triangle index="0 5 4" />
+                    <triangle index="1 0 4" />
+                    <triangle index="5 0 7" />
+                    <triangle index="6 5 7" />
+                    <triangle index="13 12 14" />
+                    <triangle index="15 14 12" />
+                    <triangle index="12 11 15" />
+                    <triangle index="8 15 11" />
+                    <triangle index="11 10 8" />
+                    <triangle index="9 8 10" />
+                    <triangle index="7 0 9" />
+                    <triangle index="8 9 0" />
+                    <triangle index="6 7 10" />
+                    <triangle index="9 10 7" />
+                    <triangle index="5 6 11" />
+                    <triangle index="10 11 6" />
+                    <triangle index="4 5 12" />
+                    <triangle index="11 12 5" />
+                    <triangle index="4 12 3" />
+                    <triangle index="13 3 12" />
+                    <triangle index="3 13 2" />
+                    <triangle index="14 2 13" />
+                    <triangle index="1 2 15" />
+                    <triangle index="14 15 2" />
+                    <triangle index="0 1 8" />
+                    <triangle index="15 8 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperfrontside23" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.02439 -0.02449 -0.09849" />
+                    <point coord="-0.02439 -0.0035 -0.09849" />
+                    <point coord="-0.02439 -0.0035 -0.10899" />
+                    <point coord="-0.02439 -0.02449 -0.10899" />
+                    <point coord="-0.0269 -0.02449 -0.09849" />
+                    <point coord="-0.0269 -0.02449 -0.10899" />
+                    <point coord="-0.0269 -0.0035 -0.10899" />
+                    <point coord="-0.0269 -0.0035 -0.09849" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 0" />
+                    <triangle index="1 0 2" />
+                    <triangle index="6 5 7" />
+                    <triangle index="4 7 5" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperbackside1" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.0284 0.01205 -0.04749" />
+                    <point coord="0.0284 0.01205 -0.04057" />
+                    <point coord="0.0284 0.01605 -0.04057" />
+                    <point coord="0.0284 0.02155 -0.04472" />
+                    <point coord="0.0284 0.02155 -0.10674" />
+                    <point coord="0.0284 0.02155 -0.11053" />
+                    <point coord="0.0284 0.01729 -0.11639" />
+                    <point coord="0.0284 0.01205 -0.11639" />
+                    <point coord="0.0284 0.01205 -0.11257" />
+                    <point coord="0.0284 0.01205 -0.11053" />
+                    <point coord="0.02445 0.01205 -0.04749" />
+                    <point coord="0.02445 0.01205 -0.11053" />
+                    <point coord="0.02445 0.01205 -0.11257" />
+                    <point coord="0.02445 0.01205 -0.11639" />
+                    <point coord="0.02445 0.01729 -0.11639" />
+                    <point coord="0.02445 0.02155 -0.11053" />
+                    <point coord="0.02445 0.02155 -0.10674" />
+                    <point coord="0.02445 0.02155 -0.04472" />
+                    <point coord="0.02445 0.01605 -0.04057" />
+                    <point coord="0.02445 0.01205 -0.04057" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 2" />
+                    <triangle index="1 0 2" />
+                    <triangle index="4 3 0" />
+                    <triangle index="0 9 4" />
+                    <triangle index="5 4 9" />
+                    <triangle index="9 8 5" />
+                    <triangle index="5 8 7" />
+                    <triangle index="6 5 7" />
+                    <triangle index="18 17 19" />
+                    <triangle index="10 19 17" />
+                    <triangle index="17 16 10" />
+                    <triangle index="10 16 15" />
+                    <triangle index="11 10 15" />
+                    <triangle index="14 12 11" />
+                    <triangle index="15 14 11" />
+                    <triangle index="13 12 14" />
+                    <triangle index="9 0 11" />
+                    <triangle index="10 11 0" />
+                    <triangle index="9 11 8" />
+                    <triangle index="12 8 11" />
+                    <triangle index="8 12 7" />
+                    <triangle index="13 7 12" />
+                    <triangle index="6 7 14" />
+                    <triangle index="13 14 7" />
+                    <triangle index="5 6 15" />
+                    <triangle index="14 15 6" />
+                    <triangle index="5 15 4" />
+                    <triangle index="16 4 15" />
+                    <triangle index="3 4 17" />
+                    <triangle index="16 17 4" />
+                    <triangle index="2 3 18" />
+                    <triangle index="17 18 3" />
+                    <triangle index="1 2 19" />
+                    <triangle index="18 19 2" />
+                    <triangle index="0 1 10" />
+                    <triangle index="19 10 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperbackside2" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0284 0.02155 -0.04459" />
+                    <point coord="-0.0284 0.01605 -0.04057" />
+                    <point coord="-0.0284 0.01205 -0.04057" />
+                    <point coord="-0.0284 0.01205 -0.04749" />
+                    <point coord="-0.0284 0.01205 -0.11057" />
+                    <point coord="-0.0284 0.01205 -0.11256" />
+                    <point coord="-0.0284 0.01205 -0.11639" />
+                    <point coord="-0.0284 0.01729 -0.11639" />
+                    <point coord="-0.0284 0.02155 -0.11053" />
+                    <point coord="-0.02445 0.02155 -0.04459" />
+                    <point coord="-0.02445 0.02155 -0.11053" />
+                    <point coord="-0.02445 0.01729 -0.11639" />
+                    <point coord="-0.02445 0.01205 -0.11639" />
+                    <point coord="-0.02445 0.01205 -0.11256" />
+                    <point coord="-0.02445 0.01205 -0.11057" />
+                    <point coord="-0.02445 0.01205 -0.04749" />
+                    <point coord="-0.02445 0.01205 -0.04057" />
+                    <point coord="-0.02445 0.01605 -0.04057" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="0 8 3" />
+                    <triangle index="4 3 8" />
+                    <triangle index="7 5 4" />
+                    <triangle index="8 7 4" />
+                    <triangle index="6 5 7" />
+                    <triangle index="15 9 17" />
+                    <triangle index="16 15 17" />
+                    <triangle index="10 9 15" />
+                    <triangle index="15 14 10" />
+                    <triangle index="10 14 13" />
+                    <triangle index="10 13 12" />
+                    <triangle index="11 10 12" />
+                    <triangle index="8 0 10" />
+                    <triangle index="9 10 0" />
+                    <triangle index="7 8 11" />
+                    <triangle index="10 11 8" />
+                    <triangle index="6 7 12" />
+                    <triangle index="11 12 7" />
+                    <triangle index="6 12 5" />
+                    <triangle index="13 5 12" />
+                    <triangle index="5 13 4" />
+                    <triangle index="14 4 13" />
+                    <triangle index="3 4 15" />
+                    <triangle index="14 15 4" />
+                    <triangle index="2 3 16" />
+                    <triangle index="15 16 3" />
+                    <triangle index="1 2 17" />
+                    <triangle index="16 17 2" />
+                    <triangle index="0 1 9" />
+                    <triangle index="17 9 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="legupperback" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.02445 0.02155 -0.11053" />
+                    <point coord="0.02445 0.02155 -0.11053" />
+                    <point coord="0.02445 0.02155 -0.09753" />
+                    <point coord="-0.02445 0.02155 -0.09753" />
+                    <point coord="-0.02445 0.01855 -0.11053" />
+                    <point coord="-0.02445 0.01855 -0.09753" />
+                    <point coord="0.02445 0.01855 -0.09753" />
+                    <point coord="0.02445 0.01855 -0.11053" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 0" />
+                    <triangle index="1 0 2" />
+                    <triangle index="4 7 5" />
+                    <triangle index="6 5 7" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="knee" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0217 -0.0335 -0.09849" />
+                    <point coord="0.0217 -0.0335 -0.09849" />
+                    <point coord="0.0217 -0.0335 -0.1455" />
+                    <point coord="-0.0217 -0.0335 -0.1455" />
+                    <point coord="-0.0217 0.01669 -0.09849" />
+                    <point coord="-0.0217 0.01669 -0.1455" />
+                    <point coord="0.0217 0.01669 -0.1455" />
+                    <point coord="0.0217 0.01669 -0.09849" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 1" />
+                    <triangle index="2 1 3" />
+                    <triangle index="7 6 4" />
+                    <triangle index="5 4 6" />
+                    <triangle index="0 4 3" />
+                    <triangle index="5 3 4" />
+                    <triangle index="3 5 2" />
+                    <triangle index="6 2 5" />
+                    <triangle index="2 6 1" />
+                    <triangle index="7 1 6" />
+                    <triangle index="1 7 0" />
+                    <triangle index="4 0 7" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foot" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.03249 0.0375 -0.25229" />
+                    <point coord="0.01864 0.04549 -0.25229" />
+                    <point coord="-0.02864 0.04549 -0.25229" />
+                    <point coord="-0.0425 0.0375 -0.25229" />
+                    <point coord="-0.0425 -0.05649 -0.25229" />
+                    <point coord="-0.02864 -0.06449 -0.25229" />
+                    <point coord="0.01864 -0.06449 -0.25229" />
+                    <point coord="0.03249 -0.05649 -0.25229" />
+                    <point coord="0.03249 0.0375 -0.2425" />
+                    <point coord="0.03249 -0.05649 -0.2425" />
+                    <point coord="0.01864 -0.06449 -0.2425" />
+                    <point coord="-0.02864 -0.06449 -0.2425" />
+                    <point coord="-0.0425 -0.05649 -0.2425" />
+                    <point coord="-0.0425 0.0375 -0.2425" />
+                    <point coord="-0.02864 0.04549 -0.2425" />
+                    <point coord="0.01864 0.04549 -0.2425" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="0 7 3" />
+                    <triangle index="4 3 7" />
+                    <triangle index="7 6 4" />
+                    <triangle index="5 4 6" />
+                    <triangle index="10 9 11" />
+                    <triangle index="12 11 9" />
+                    <triangle index="9 8 12" />
+                    <triangle index="13 12 8" />
+                    <triangle index="8 15 13" />
+                    <triangle index="14 13 15" />
+                    <triangle index="7 0 9" />
+                    <triangle index="8 9 0" />
+                    <triangle index="6 7 10" />
+                    <triangle index="9 10 7" />
+                    <triangle index="5 6 11" />
+                    <triangle index="10 11 6" />
+                    <triangle index="4 5 12" />
+                    <triangle index="11 12 5" />
+                    <triangle index="3 4 13" />
+                    <triangle index="12 13 4" />
+                    <triangle index="2 3 14" />
+                    <triangle index="13 14 3" />
+                    <triangle index="1 2 15" />
+                    <triangle index="14 15 2" />
+                    <triangle index="0 1 8" />
+                    <triangle index="15 8 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foottriangle" rotation="-1.46115e-17 1 -9.83658e-14 3.14159" translation="0.0503 0 -0.244">
+                <points>
+                    <point coord="0.0259 0.00127 -0.02378" />
+                    <point coord="0.0259 0.01859 -0.04309" />
+                    <point coord="0.0259 0.01711 -0.0475" />
+                    <point coord="0.0259 -0.03065 -0.05694" />
+                    <point coord="0.0259 -0.03808 -0.05025" />
+                    <point coord="0.0259 -0.0078 -0.01665" />
+                    <point coord="0.02439 0.01711 -0.0475" />
+                    <point coord="0.02439 -0.03065 -0.05694" />
+                    <point coord="0.02439 0.01859 -0.04309" />
+                    <point coord="0.02439 0.00127 -0.02378" />
+                    <point coord="0.02439 -0.0078 -0.01665" />
+                    <point coord="0.02439 -0.03808 -0.05025" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="2 0 5" />
+                    <triangle index="3 2 5" />
+                    <triangle index="5 4 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="7 6 3" />
+                    <triangle index="1 2 8" />
+                    <triangle index="6 8 2" />
+                    <triangle index="0 1 9" />
+                    <triangle index="8 9 1" />
+                    <triangle index="4 5 11" />
+                    <triangle index="10 11 5" />
+                    <triangle index="3 4 7" />
+                    <triangle index="11 7 4" />
+                    <triangle index="9 8 6" />
+                    <triangle index="7 10 9" />
+                    <triangle index="6 7 9" />
+                    <triangle index="11 10 7" />
+                    <triangle index="5 0 10" />
+                    <triangle index="9 10 0" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foottriangle2" rotation="-1.17388e-17 1 -9.72417e-14 3.14159" translation="-0.0503 0 -0.244">
+                <points>
+                    <point coord="-0.0259 -0.00665 -0.01537" />
+                    <point coord="-0.0259 -0.03808 -0.05025" />
+                    <point coord="-0.0259 -0.03065 -0.05694" />
+                    <point coord="-0.0259 0.01711 -0.0475" />
+                    <point coord="-0.0259 0.01854 -0.04322" />
+                    <point coord="-0.0259 -0.00096 -0.01905" />
+                    <point coord="-0.02439 -0.00665 -0.01537" />
+                    <point coord="-0.02439 -0.00096 -0.01905" />
+                    <point coord="-0.02439 0.01854 -0.04322" />
+                    <point coord="-0.02439 0.01711 -0.0475" />
+                    <point coord="-0.02439 -0.03065 -0.05694" />
+                    <point coord="-0.02439 -0.03808 -0.05025" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="2 0 5" />
+                    <triangle index="3 2 5" />
+                    <triangle index="5 4 3" />
+                    <triangle index="8 7 9" />
+                    <triangle index="9 7 6" />
+                    <triangle index="10 9 6" />
+                    <triangle index="6 11 10" />
+                    <triangle index="0 1 6" />
+                    <triangle index="11 6 1" />
+                    <triangle index="4 5 8" />
+                    <triangle index="7 8 5" />
+                    <triangle index="3 4 9" />
+                    <triangle index="8 9 4" />
+                    <triangle index="2 3 10" />
+                    <triangle index="9 10 3" />
+                    <triangle index="1 2 11" />
+                    <triangle index="10 11 2" />
+                    <triangle index="5 0 7" />
+                    <triangle index="6 7 0" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foottriangle3" rotation="1 2.29056e-16 1.56869e-16 -1.67494" translation="0 0.0153715 -0.230151">
+                <points>
+                    <point coord="-0.0259 -0.03808 -0.05025" />
+                    <point coord="0.0259 -0.03808 -0.05025" />
+                    <point coord="0.0259 -0.03065 -0.05694" />
+                    <point coord="-0.0259 -0.03065 -0.05694" />
+                    <point coord="-0.0259 -0.03707 -0.04914" />
+                    <point coord="-0.0259 -0.02964 -0.05583" />
+                    <point coord="0.0259 -0.02964 -0.05583" />
+                    <point coord="0.0259 -0.03707 -0.04914" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="4 7 5" />
+                    <triangle index="6 5 7" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="footsquare" rotation="1 0 0 0" translation="0 0 -0.171">
+                <points>
+                    <point coord="-0.0217 -0.0217 -0.0575" />
+                    <point coord="0.0217 -0.0217 -0.0575" />
+                    <point coord="0.0217 0.0217 -0.0575" />
+                    <point coord="-0.0217 0.0217 -0.0575" />
+                    <point coord="-0.0217 -0.0217 -0.01549" />
+                    <point coord="-0.0217 0.0217 -0.01549" />
+                    <point coord="0.0217 0.0217 -0.01549" />
+                    <point coord="0.0217 -0.0217 -0.01549" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 1" />
+                    <triangle index="2 1 3" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 6 4" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerback" rotation="1 0 0 0" translation="0.0005 0 -0.0359284">
+                <points>
+                    <point coord="-0.02445 0.02155 -0.11053" />
+                    <point coord="0.02445 0.02155 -0.11053" />
+                    <point coord="0.02445 0.02155 -0.09753" />
+                    <point coord="-0.02445 0.02155 -0.09753" />
+                    <point coord="-0.02445 0.01855 -0.11053" />
+                    <point coord="-0.02445 0.01855 -0.09753" />
+                    <point coord="0.02445 0.01855 -0.09753" />
+                    <point coord="0.02445 0.01855 -0.11053" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 0" />
+                    <triangle index="1 0 2" />
+                    <triangle index="4 7 5" />
+                    <triangle index="6 5 7" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerbackside1" rotation="2.8971e-16 1 -9.0659e-14 3.14159" translation="0.05335 0 -0.244">
+                <points>
+                    <point coord="0.0284 0.01205 -0.04749" />
+                    <point coord="0.0284 0.01205 -0.04057" />
+                    <point coord="0.0284 0.01605 -0.04057" />
+                    <point coord="0.0284 0.02155 -0.04472" />
+                    <point coord="0.0284 0.02155 -0.10674" />
+                    <point coord="0.0284 0.02155 -0.11053" />
+                    <point coord="0.0284 0.01729 -0.11639" />
+                    <point coord="0.0284 0.01205 -0.11639" />
+                    <point coord="0.0284 0.01205 -0.11257" />
+                    <point coord="0.0284 0.01205 -0.11053" />
+                    <point coord="0.02445 0.01205 -0.04749" />
+                    <point coord="0.02445 0.01205 -0.11053" />
+                    <point coord="0.02445 0.01205 -0.11257" />
+                    <point coord="0.02445 0.01205 -0.11639" />
+                    <point coord="0.02445 0.01729 -0.11639" />
+                    <point coord="0.02445 0.02155 -0.11053" />
+                    <point coord="0.02445 0.02155 -0.10674" />
+                    <point coord="0.02445 0.02155 -0.04472" />
+                    <point coord="0.02445 0.01605 -0.04057" />
+                    <point coord="0.02445 0.01205 -0.04057" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 2" />
+                    <triangle index="1 0 2" />
+                    <triangle index="4 3 0" />
+                    <triangle index="0 9 4" />
+                    <triangle index="5 4 9" />
+                    <triangle index="9 8 5" />
+                    <triangle index="5 8 7" />
+                    <triangle index="6 5 7" />
+                    <triangle index="18 17 19" />
+                    <triangle index="10 19 17" />
+                    <triangle index="17 16 10" />
+                    <triangle index="10 16 15" />
+                    <triangle index="11 10 15" />
+                    <triangle index="14 12 11" />
+                    <triangle index="15 14 11" />
+                    <triangle index="13 12 14" />
+                    <triangle index="9 0 11" />
+                    <triangle index="10 11 0" />
+                    <triangle index="9 11 8" />
+                    <triangle index="12 8 11" />
+                    <triangle index="8 12 7" />
+                    <triangle index="13 7 12" />
+                    <triangle index="6 7 14" />
+                    <triangle index="13 14 7" />
+                    <triangle index="5 6 15" />
+                    <triangle index="14 15 6" />
+                    <triangle index="5 15 4" />
+                    <triangle index="16 4 15" />
+                    <triangle index="3 4 17" />
+                    <triangle index="16 17 4" />
+                    <triangle index="2 3 18" />
+                    <triangle index="17 18 3" />
+                    <triangle index="1 2 19" />
+                    <triangle index="18 19 2" />
+                    <triangle index="0 1 10" />
+                    <triangle index="19 10 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerbackside2" rotation="2.8971e-16 1 -4.8813e-14 3.14159" translation="-0.05235 0 -0.244">
+                <points>
+                    <point coord="-0.0284 0.02155 -0.04459" />
+                    <point coord="-0.0284 0.01605 -0.04057" />
+                    <point coord="-0.0284 0.01205 -0.04057" />
+                    <point coord="-0.0284 0.01205 -0.04749" />
+                    <point coord="-0.0284 0.01205 -0.11057" />
+                    <point coord="-0.0284 0.01205 -0.11256" />
+                    <point coord="-0.0284 0.01205 -0.11639" />
+                    <point coord="-0.0284 0.01729 -0.11639" />
+                    <point coord="-0.0284 0.02155 -0.11053" />
+                    <point coord="-0.02445 0.02155 -0.04459" />
+                    <point coord="-0.02445 0.02155 -0.11053" />
+                    <point coord="-0.02445 0.01729 -0.11639" />
+                    <point coord="-0.02445 0.01205 -0.11639" />
+                    <point coord="-0.02445 0.01205 -0.11256" />
+                    <point coord="-0.02445 0.01205 -0.11057" />
+                    <point coord="-0.02445 0.01205 -0.04749" />
+                    <point coord="-0.02445 0.01205 -0.04057" />
+                    <point coord="-0.02445 0.01605 -0.04057" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="0 8 3" />
+                    <triangle index="4 3 8" />
+                    <triangle index="7 5 4" />
+                    <triangle index="8 7 4" />
+                    <triangle index="6 5 7" />
+                    <triangle index="15 9 17" />
+                    <triangle index="16 15 17" />
+                    <triangle index="10 9 15" />
+                    <triangle index="15 14 10" />
+                    <triangle index="10 14 13" />
+                    <triangle index="10 13 12" />
+                    <triangle index="11 10 12" />
+                    <triangle index="8 0 10" />
+                    <triangle index="9 10 0" />
+                    <triangle index="7 8 11" />
+                    <triangle index="10 11 8" />
+                    <triangle index="6 7 12" />
+                    <triangle index="11 12 7" />
+                    <triangle index="6 12 5" />
+                    <triangle index="13 5 12" />
+                    <triangle index="5 13 4" />
+                    <triangle index="14 4 13" />
+                    <triangle index="3 4 15" />
+                    <triangle index="14 15 4" />
+                    <triangle index="2 3 16" />
+                    <triangle index="15 16 3" />
+                    <triangle index="1 2 17" />
+                    <triangle index="16 17 2" />
+                    <triangle index="0 1 9" />
+                    <triangle index="17 9 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfront1" rotation="1 0 0 0" translation="0 -0.0001 -0.101">
+                <points>
+                    <point coord="0.01799 -0.00449 -0.075" />
+                    <point coord="-0.01799 -0.00449 -0.075" />
+                    <point coord="-0.01799 -0.02349 -0.075" />
+                    <point coord="0.01799 -0.02349 -0.075" />
+                    <point coord="0.01799 -0.00449 -0.068" />
+                    <point coord="0.01799 -0.02349 -0.068" />
+                    <point coord="-0.01799 -0.02349 -0.068" />
+                    <point coord="-0.01799 -0.00449 -0.068" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="4 7 5" />
+                    <triangle index="6 5 7" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfront2" rotation="1 0 0 0" translation="0 0 -0.086">
+                <points>
+                    <point coord="-0.0269 -0.0348 -0.0665" />
+                    <point coord="0.0269 -0.0348 -0.0665" />
+                    <point coord="0.0269 -0.0348 -0.09149" />
+                    <point coord="-0.0269 -0.0348 -0.09149" />
+                    <point coord="-0.0269 -0.025 -0.0665" />
+                    <point coord="-0.0269 -0.025 -0.09149" />
+                    <point coord="0.0269 -0.025 -0.09149" />
+                    <point coord="0.0269 -0.025 -0.0665" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="6 5 7" />
+                    <triangle index="4 7 5" />
+                    <triangle index="3 0 5" />
+                    <triangle index="4 5 0" />
+                    <triangle index="2 3 6" />
+                    <triangle index="5 6 3" />
+                    <triangle index="1 2 7" />
+                    <triangle index="6 7 2" />
+                    <triangle index="0 1 4" />
+                    <triangle index="7 4 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfrontside11" rotation="8.4178e-17 1 -5.38181e-14 3.14159" translation="0.0578 0 -0.244">
+                <points>
+                    <point coord="0.0269 -0.028 -0.05438" />
+                    <point coord="0.0269 -0.028 -0.09849" />
+                    <point coord="0.0269 -0.01049 -0.09849" />
+                    <point coord="0.0269 -0.01049 -0.039" />
+                    <point coord="0.0269 -0.01796 -0.037" />
+                    <point coord="0.03089 -0.028 -0.05438" />
+                    <point coord="0.03089 -0.01796 -0.037" />
+                    <point coord="0.03089 -0.01049 -0.039" />
+                    <point coord="0.03089 -0.01049 -0.09849" />
+                    <point coord="0.03089 -0.028 -0.09849" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="0 4 3" />
+                    <triangle index="6 5 7" />
+                    <triangle index="7 5 9" />
+                    <triangle index="8 7 9" />
+                    <triangle index="9 5 1" />
+                    <triangle index="0 1 5" />
+                    <triangle index="8 9 2" />
+                    <triangle index="1 2 9" />
+                    <triangle index="7 8 3" />
+                    <triangle index="2 3 8" />
+                    <triangle index="6 7 4" />
+                    <triangle index="3 4 7" />
+                    <triangle index="5 6 0" />
+                    <triangle index="4 0 6" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfrontside12" rotation="1.36575e-16 1 -5.82768e-14 3.14159" translation="0.0661 0 -0.244">
+                <points>
+                    <point coord="0.03519 -0.028 -0.05438" />
+                    <point coord="0.03519 -0.02222 -0.04438" />
+                    <point coord="0.03519 -0.01018 -0.04657" />
+                    <point coord="0.03519 -0.002 -0.05476" />
+                    <point coord="0.03519 -0.002 -0.09849" />
+                    <point coord="0.03519 -0.028 -0.09849" />
+                    <point coord="0.03089 -0.028 -0.05438" />
+                    <point coord="0.03089 -0.028 -0.09849" />
+                    <point coord="0.03089 -0.002 -0.09849" />
+                    <point coord="0.03089 -0.002 -0.05476" />
+                    <point coord="0.03089 -0.01018 -0.04657" />
+                    <point coord="0.03089 -0.02222 -0.04438" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="0 5 3" />
+                    <triangle index="4 3 5" />
+                    <triangle index="6 9 8" />
+                    <triangle index="7 6 8" />
+                    <triangle index="10 9 6" />
+                    <triangle index="6 11 10" />
+                    <triangle index="5 0 7" />
+                    <triangle index="6 7 0" />
+                    <triangle index="4 5 8" />
+                    <triangle index="7 8 5" />
+                    <triangle index="3 4 9" />
+                    <triangle index="8 9 4" />
+                    <triangle index="2 3 10" />
+                    <triangle index="9 10 3" />
+                    <triangle index="1 2 11" />
+                    <triangle index="10 11 2" />
+                    <triangle index="0 1 6" />
+                    <triangle index="11 6 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfrontside13" rotation="1 0 0 0" translation="0 0 -0.0365">
+                <points>
+                    <point coord="0.02439 -0.02449 -0.09849" />
+                    <point coord="0.02439 -0.02449 -0.10899" />
+                    <point coord="0.02439 -0.00449 -0.10899" />
+                    <point coord="0.02439 -0.00449 -0.09849" />
+                    <point coord="0.0269 -0.02449 -0.09849" />
+                    <point coord="0.0269 -0.00449 -0.09849" />
+                    <point coord="0.0269 -0.00449 -0.10899" />
+                    <point coord="0.0269 -0.02449 -0.10899" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 3" />
+                    <triangle index="0 3 1" />
+                    <triangle index="7 6 4" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfrontside21" rotation="1.34255e-16 1 -5.3707e-14 3.14159" translation="-0.0578 0 -0.244">
+                <points>
+                    <point coord="-0.0269 -0.01049 -0.09849" />
+                    <point coord="-0.0269 -0.028 -0.09849" />
+                    <point coord="-0.0269 -0.028 -0.05438" />
+                    <point coord="-0.0269 -0.01796 -0.037" />
+                    <point coord="-0.0269 -0.01049 -0.039" />
+                    <point coord="-0.03089 -0.01049 -0.09849" />
+                    <point coord="-0.03089 -0.01049 -0.039" />
+                    <point coord="-0.03089 -0.01796 -0.037" />
+                    <point coord="-0.03089 -0.028 -0.05438" />
+                    <point coord="-0.03089 -0.028 -0.09849" />
+                </points>
+                <triangles>
+                    <triangle index="4 2 1" />
+                    <triangle index="0 4 1" />
+                    <triangle index="3 2 4" />
+                    <triangle index="9 8 5" />
+                    <triangle index="6 5 8" />
+                    <triangle index="8 7 6" />
+                    <triangle index="9 5 1" />
+                    <triangle index="0 1 5" />
+                    <triangle index="8 9 2" />
+                    <triangle index="1 2 9" />
+                    <triangle index="7 8 3" />
+                    <triangle index="2 3 8" />
+                    <triangle index="6 7 4" />
+                    <triangle index="3 4 7" />
+                    <triangle index="5 6 0" />
+                    <triangle index="4 0 6" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfrontside22" rotation="1.35396e-16 1 -5.91361e-14 3.14159" translation="-0.0661 0 -0.244">
+                <points>
+                    <point coord="-0.03519 -0.002 -0.05476" />
+                    <point coord="-0.03519 -0.01024 -0.04651" />
+                    <point coord="-0.03519 -0.01981 -0.04482" />
+                    <point coord="-0.03519 -0.02223 -0.04439" />
+                    <point coord="-0.03519 -0.02345 -0.04651" />
+                    <point coord="-0.03519 -0.028 -0.05438" />
+                    <point coord="-0.03519 -0.028 -0.09849" />
+                    <point coord="-0.03519 -0.002 -0.09849" />
+                    <point coord="-0.03089 -0.002 -0.05476" />
+                    <point coord="-0.03089 -0.002 -0.09849" />
+                    <point coord="-0.03089 -0.028 -0.09849" />
+                    <point coord="-0.03089 -0.028 -0.05438" />
+                    <point coord="-0.03089 -0.02345 -0.04651" />
+                    <point coord="-0.03089 -0.02223 -0.04439" />
+                    <point coord="-0.03089 -0.01981 -0.04482" />
+                    <point coord="-0.03089 -0.01024 -0.04651" />
+                </points>
+                <triangles>
+                    <triangle index="2 1 4" />
+                    <triangle index="4 3 2" />
+                    <triangle index="0 5 4" />
+                    <triangle index="1 0 4" />
+                    <triangle index="5 0 7" />
+                    <triangle index="6 5 7" />
+                    <triangle index="13 12 14" />
+                    <triangle index="15 14 12" />
+                    <triangle index="12 11 15" />
+                    <triangle index="8 15 11" />
+                    <triangle index="11 10 8" />
+                    <triangle index="9 8 10" />
+                    <triangle index="7 0 9" />
+                    <triangle index="8 9 0" />
+                    <triangle index="6 7 10" />
+                    <triangle index="9 10 7" />
+                    <triangle index="5 6 11" />
+                    <triangle index="10 11 6" />
+                    <triangle index="4 5 12" />
+                    <triangle index="11 12 5" />
+                    <triangle index="4 12 3" />
+                    <triangle index="13 3 12" />
+                    <triangle index="3 13 2" />
+                    <triangle index="14 2 13" />
+                    <triangle index="1 2 15" />
+                    <triangle index="14 15 2" />
+                    <triangle index="0 1 8" />
+                    <triangle index="15 8 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="leglowerfrontside23" rotation="-3.81506e-16 5.81356e-14 1 3.14159" translation="-0.0513 -0.028 -0.0365">
+                <points>
+                    <point coord="-0.02439 -0.02449 -0.09849" />
+                    <point coord="-0.02439 -0.0035 -0.09849" />
+                    <point coord="-0.02439 -0.0035 -0.10899" />
+                    <point coord="-0.02439 -0.02449 -0.10899" />
+                    <point coord="-0.0269 -0.02449 -0.09849" />
+                    <point coord="-0.0269 -0.02449 -0.10899" />
+                    <point coord="-0.0269 -0.0035 -0.10899" />
+                    <point coord="-0.0269 -0.0035 -0.09849" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 0" />
+                    <triangle index="1 0 2" />
+                    <triangle index="6 5 7" />
+                    <triangle index="4 7 5" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="footyside21" rotation="1 -1.92963e-16 1.11022e-15 3.14159" translation="0 0.0571 -0.244">
+                <points>
+                    <point coord="0.01499 0.02439 -0.0068" />
+                    <point coord="0.01499 0.02439 -0.01574" />
+                    <point coord="0.012 0.02439 -0.01874" />
+                    <point coord="-0.01499 0.02439 -0.01874" />
+                    <point coord="-0.01499 0.02439 -0.0068" />
+                    <point coord="0.01499 0.03269 -0.0068" />
+                    <point coord="-0.01499 0.03269 -0.0068" />
+                    <point coord="-0.01499 0.03269 -0.01874" />
+                    <point coord="0.012 0.03269 -0.01874" />
+                    <point coord="0.01499 0.03269 -0.01574" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 4" />
+                    <triangle index="4 2 1" />
+                    <triangle index="0 4 1" />
+                    <triangle index="5 8 7" />
+                    <triangle index="6 5 7" />
+                    <triangle index="9 8 5" />
+                    <triangle index="9 5 1" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 1 8" />
+                    <triangle index="2 8 1" />
+                    <triangle index="7 8 3" />
+                    <triangle index="2 3 8" />
+                    <triangle index="6 7 4" />
+                    <triangle index="3 4 7" />
+                    <triangle index="5 6 0" />
+                    <triangle index="4 0 6" />
+                </triangles>
+            </boxnode>
+            <boxnode name="footyside23" rotation="1 -1.23461e-16 1.29957e-15 3.14159" translation="0.000133174 0.0518 -0.243867">
+                <points>
+                    <point coord="0.01185 0.02439 -0.0338" />
+                    <point coord="0.01727 0.02439 -0.03922" />
+                    <point coord="0.00172 0.02439 -0.05477" />
+                    <point coord="-0.00521 0.02439 -0.04783" />
+                    <point coord="0.01185 0.0274 -0.0338" />
+                    <point coord="-0.00521 0.0274 -0.04783" />
+                    <point coord="0.00172 0.0274 -0.05477" />
+                    <point coord="0.01727 0.0274 -0.03922" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 2" />
+                    <triangle index="2 1 0" />
+                    <triangle index="5 4 6" />
+                    <triangle index="7 6 4" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="footyside11" rotation="1 -1.67851e-16 2.22045e-16 3.14159" translation="0 -0.0571 -0.244">
+                <points>
+                    <point coord="-0.01499 -0.03269 -0.0068" />
+                    <point coord="0.01499 -0.03269 -0.0068" />
+                    <point coord="0.01499 -0.03269 -0.0115" />
+                    <point coord="0.008 -0.03269 -0.0185" />
+                    <point coord="-0.01499 -0.03269 -0.0185" />
+                    <point coord="-0.01499 -0.02439 -0.0068" />
+                    <point coord="-0.01499 -0.02439 -0.0185" />
+                    <point coord="0.008 -0.02439 -0.0185" />
+                    <point coord="0.01499 -0.02439 -0.0115" />
+                    <point coord="0.01499 -0.02439 -0.0068" />
+                </points>
+                <triangles>
+                    <triangle index="0 3 2" />
+                    <triangle index="1 0 2" />
+                    <triangle index="4 3 0" />
+                    <triangle index="9 7 6" />
+                    <triangle index="5 9 6" />
+                    <triangle index="8 7 9" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="2 8 1" />
+                    <triangle index="9 1 8" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="footyside12" rotation="1 -9.0188e-17 1.07199e-16 3.14159" translation="0 -0.0571 -0.244">
+                <points>
+                    <point coord="-0.01499 -0.03269 -0.0185" />
+                    <point coord="0.008 -0.03269 -0.0185" />
+                    <point coord="0.008 -0.03269 -0.03206" />
+                    <point coord="-0.00543 -0.03269 -0.04549" />
+                    <point coord="-0.01499 -0.03269 -0.03593" />
+                    <point coord="-0.01499 -0.02439 -0.0185" />
+                    <point coord="-0.01499 -0.02439 -0.03593" />
+                    <point coord="-0.00543 -0.02439 -0.04549" />
+                    <point coord="0.008 -0.02439 -0.03206" />
+                    <point coord="0.008 -0.02439 -0.0185" />
+                </points>
+                <triangles>
+                    <triangle index="4 2 1" />
+                    <triangle index="0 4 1" />
+                    <triangle index="3 2 4" />
+                    <triangle index="8 7 6" />
+                    <triangle index="6 5 8" />
+                    <triangle index="9 8 5" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="footyside13" rotation="-1.09168e-15 1 1.15641e-15 -1.5708" translation="-0.0375 0 -0.2065">
+                <points>
+                    <point coord="-0.0047 -0.02439 -0.04623" />
+                    <point coord="0.00278 -0.02439 -0.05371" />
+                    <point coord="0.01615 -0.02439 -0.04021" />
+                    <point coord="0.008 -0.02439 -0.03206" />
+                    <point coord="-0.00543 -0.02439 -0.04549" />
+                    <point coord="-0.0047 -0.0274 -0.04623" />
+                    <point coord="-0.00543 -0.0274 -0.04549" />
+                    <point coord="0.008 -0.0274 -0.03206" />
+                    <point coord="0.01615 -0.0274 -0.04021" />
+                    <point coord="0.00278 -0.0274 -0.05371" />
+                </points>
+                <triangles>
+                    <triangle index="4 3 2" />
+                    <triangle index="0 4 2" />
+                    <triangle index="2 1 0" />
+                    <triangle index="8 6 5" />
+                    <triangle index="9 8 5" />
+                    <triangle index="7 6 8" />
+                    <triangle index="0 5 4" />
+                    <triangle index="6 4 5" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="hipyside22" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.012 0.03269 -0.0185" />
+                    <point coord="-0.01499 0.03269 -0.0185" />
+                    <point coord="-0.01499 0.03269 -0.03805" />
+                    <point coord="-0.00521 0.03269 -0.04783" />
+                    <point coord="0.012 0.03269 -0.03368" />
+                    <point coord="0.012 0.02439 -0.0185" />
+                    <point coord="0.012 0.02439 -0.03368" />
+                    <point coord="-0.00521 0.02439 -0.04783" />
+                    <point coord="-0.01499 0.02439 -0.03805" />
+                    <point coord="-0.01499 0.02439 -0.0185" />
+                </points>
+                <triangles>
+                    <triangle index="0 4 1" />
+                    <triangle index="2 1 4" />
+                    <triangle index="4 3 2" />
+                    <triangle index="7 6 8" />
+                    <triangle index="8 6 5" />
+                    <triangle index="9 8 5" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="footyside22" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.00521 0.03269 -0.19591" />
+                    <point coord="-0.01499 0.03269 -0.2057" />
+                    <point coord="-0.01499 0.03269 -0.22525" />
+                    <point coord="0.012 0.03269 -0.22525" />
+                    <point coord="0.012 0.03269 -0.21007" />
+                    <point coord="-0.00521 0.02439 -0.19591" />
+                    <point coord="0.012 0.02439 -0.21007" />
+                    <point coord="0.012 0.02439 -0.22525" />
+                    <point coord="-0.01499 0.02439 -0.22525" />
+                    <point coord="-0.01499 0.02439 -0.2057" />
+                </points>
+                <triangles>
+                    <triangle index="0 4 1" />
+                    <triangle index="1 4 3" />
+                    <triangle index="2 1 3" />
+                    <triangle index="7 6 8" />
+                    <triangle index="9 8 6" />
+                    <triangle index="6 5 9" />
+                    <triangle index="4 0 6" />
+                    <triangle index="5 6 0" />
+                    <triangle index="3 4 7" />
+                    <triangle index="6 7 4" />
+                    <triangle index="2 3 8" />
+                    <triangle index="7 8 3" />
+                    <triangle index="1 2 9" />
+                    <triangle index="8 9 2" />
+                    <triangle index="0 1 5" />
+                    <triangle index="9 5 1" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foot2" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.02864 0.04549 -0.2425" />
+                    <point coord="-0.0425 0.0375 -0.2425" />
+                    <point coord="-0.0425 0.02439 -0.2425" />
+                    <point coord="0.03249 0.02439 -0.2425" />
+                    <point coord="0.03249 0.0375 -0.2425" />
+                    <point coord="0.01864 0.04549 -0.2425" />
+                    <point coord="-0.02864 0.04549 -0.2372" />
+                    <point coord="0.01864 0.04549 -0.2372" />
+                    <point coord="0.03249 0.0375 -0.2372" />
+                    <point coord="0.03249 0.02439 -0.2372" />
+                    <point coord="-0.0425 0.02439 -0.2372" />
+                    <point coord="-0.0425 0.0375 -0.2372" />
+                </points>
+                <triangles>
+                    <triangle index="2 0 5" />
+                    <triangle index="2 5 4" />
+                    <triangle index="3 2 4" />
+                    <triangle index="1 0 2" />
+                    <triangle index="8 7 9" />
+                    <triangle index="9 7 6" />
+                    <triangle index="9 6 11" />
+                    <triangle index="10 9 11" />
+                    <triangle index="11 6 1" />
+                    <triangle index="0 1 6" />
+                    <triangle index="10 11 2" />
+                    <triangle index="1 2 11" />
+                    <triangle index="9 10 3" />
+                    <triangle index="2 3 10" />
+                    <triangle index="8 9 4" />
+                    <triangle index="3 4 9" />
+                    <triangle index="7 8 5" />
+                    <triangle index="4 5 8" />
+                    <triangle index="6 7 0" />
+                    <triangle index="5 0 7" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foot3" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0425 0.02439 -0.2425" />
+                    <point coord="-0.0425 -0.02439 -0.2425" />
+                    <point coord="-0.02099 -0.02439 -0.2425" />
+                    <point coord="-0.02099 0.02439 -0.2425" />
+                    <point coord="-0.0425 0.02439 -0.2372" />
+                    <point coord="-0.02099 0.02439 -0.2372" />
+                    <point coord="-0.02099 -0.02439 -0.2372" />
+                    <point coord="-0.0425 -0.02439 -0.2372" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="4 7 5" />
+                    <triangle index="6 5 7" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foot4" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.01009 0.02439 -0.2425" />
+                    <point coord="0.01009 -0.02439 -0.2425" />
+                    <point coord="0.03249 -0.02439 -0.2425" />
+                    <point coord="0.03249 0.02439 -0.2425" />
+                    <point coord="0.01009 0.02439 -0.23579" />
+                    <point coord="0.03249 0.02439 -0.23579" />
+                    <point coord="0.03249 -0.02439 -0.23579" />
+                    <point coord="0.01009 -0.02439 -0.23579" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 2" />
+                    <triangle index="3 2 0" />
+                    <triangle index="6 5 7" />
+                    <triangle index="4 7 5" />
+                    <triangle index="7 4 1" />
+                    <triangle index="0 1 4" />
+                    <triangle index="6 7 2" />
+                    <triangle index="1 2 7" />
+                    <triangle index="5 6 3" />
+                    <triangle index="2 3 6" />
+                    <triangle index="4 5 0" />
+                    <triangle index="3 0 5" />
+                </triangles>
+            </boxnode>
+            <boxnode name="foot5" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0425 -0.02439 -0.2425" />
+                    <point coord="-0.0425 -0.05649 -0.2425" />
+                    <point coord="-0.02864 -0.06449 -0.2425" />
+                    <point coord="0.01864 -0.06449 -0.2425" />
+                    <point coord="0.03249 -0.05649 -0.2425" />
+                    <point coord="0.03249 -0.02439 -0.2425" />
+                    <point coord="-0.0425 -0.02439 -0.2372" />
+                    <point coord="0.03249 -0.02439 -0.2372" />
+                    <point coord="0.03249 -0.05649 -0.2372" />
+                    <point coord="0.01864 -0.06449 -0.2372" />
+                    <point coord="-0.02864 -0.06449 -0.2372" />
+                    <point coord="-0.0425 -0.05649 -0.2372" />
+                </points>
+                <triangles>
+                    <triangle index="4 3 5" />
+                    <triangle index="5 3 2" />
+                    <triangle index="5 2 1" />
+                    <triangle index="0 5 1" />
+                    <triangle index="6 10 9" />
+                    <triangle index="6 9 8" />
+                    <triangle index="7 6 8" />
+                    <triangle index="11 10 6" />
+                    <triangle index="11 6 1" />
+                    <triangle index="0 1 6" />
+                    <triangle index="10 11 2" />
+                    <triangle index="1 2 11" />
+                    <triangle index="9 10 3" />
+                    <triangle index="2 3 10" />
+                    <triangle index="8 9 4" />
+                    <triangle index="3 4 9" />
+                    <triangle index="7 8 5" />
+                    <triangle index="4 5 8" />
+                    <triangle index="6 7 0" />
+                    <triangle index="5 0 7" />
+                </triangles>
+            </boxnode>
+        </boxnode>
+        <boxnode name="b1000s" rotation="1 0 0 0" translation="0 0 0">
+            <boxnode name="bodybottom" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="-0.0588 -0.04781 0.06283" />
+                    <point coord="-0.0588 -0.04283 0" />
+                    <point coord="-0.0588 0.0566 0" />
+                    <point coord="-0.0588 0.06231 0.06283" />
+                    <point coord="0.0588 -0.04781 0.06283" />
+                    <point coord="0.0588 0.06231 0.06283" />
+                    <point coord="0.0588 0.0566 0" />
+                    <point coord="0.0588 -0.04283 0" />
+                </points>
+                <triangles>
+                    <triangle index="3 2 1" />
+                    <triangle index="0 3 1" />
+                    <triangle index="4 7 6" />
+                    <triangle index="5 4 6" />
+                    <triangle index="0 4 3" />
+                    <triangle index="5 3 4" />
+                    <triangle index="3 5 2" />
+                    <triangle index="6 2 5" />
+                    <triangle index="2 6 1" />
+                    <triangle index="7 1 6" />
+                    <triangle index="1 7 0" />
+                    <triangle index="4 0 7" />
+                </triangles>
+            </boxnode>
+            <boxnode name="bodytop" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.04268 -0.04765 0.1075" />
+                    <point coord="0.05203 -0.04766 0.06283" />
+                    <point coord="-0.05203 -0.04765 0.06283" />
+                    <point coord="-0.04268 -0.04765 0.1075" />
+                    <point coord="0.04268 0.06231 0.1075" />
+                    <point coord="-0.04268 0.06231 0.1075" />
+                    <point coord="-0.05203 0.06231 0.06283" />
+                    <point coord="0.05203 0.06231 0.06283" />
+                </points>
+                <triangles>
+                    <triangle index="1 0 3" />
+                    <triangle index="2 1 3" />
+                    <triangle index="6 5 4" />
+                    <triangle index="7 6 4" />
+                    <triangle index="4 0 7" />
+                    <triangle index="1 7 0" />
+                    <triangle index="7 1 6" />
+                    <triangle index="2 6 1" />
+                    <triangle index="6 2 5" />
+                    <triangle index="3 5 2" />
+                    <triangle index="5 3 4" />
+                    <triangle index="0 4 3" />
+                </triangles>
+            </boxnode>
+        </boxnode>
+        <boxnode name="neonyheads" rotation="1 0 0 0" translation="0 0 -0.0117298">
+            <boxnode name="headtop1" rotation="1 0 0 0" translation="0 0 0">
+                <points>
+                    <point coord="0.02824 0.01701 0.13962" />
+                    <point coord="0.01632 0.02874 0.13962" />
+                    <point coord="-0.01613 0.02874 0.13962" />
+                    <point coord="-0.02824 0.01682 0.13962" />
+                    <point coord="-0.02824 -0.00909 0.13962" />
+                    <point coord="-0.01003 -0.02658 0.13962" />
+                    <point coord="0.01051 -0.02658 0.13962" />
+                    <point coord="0.02431 -0.01256 0.13962" />
+                    <point coord="0.02824 -0.00879 0.13962" />
+                    <point coord="-0.02201 0.06431 0.22581" />
+                    <point coord="-0.05217 0.03533 0.22581" />
+                    <point coord="-0.05217 0.03533 0.16807" />
+                    <point coord="-0.02201 0.06431 0.16759" />
+                    <point coord="-0.05217 -0.01066 0.22581" />
+                    <point coord="-0.05217 -0.01082 0.22566" />
+                    <point coord="-0.05217 -0.01104 0.22581" />
+                    <point coord="-0.05217 -0.01104 0.16807" />
+                    <point coord="-0.03585 -0.02672 0.22582" />
+                    <point coord="-0.02215 -0.03988 0.22611" />
+                    <point coord="-0.02201 -0.04002 0.22582" />
+                    <point coord="-0.02201 -0.04002 0.16807" />
+                    <point coord="0.02198 -0.04002 0.22582" />
+                    <point coord="0.02198 -0.04002 0.16807" />
+                    <point coord="0.05216 -0.01104 0.22582" />
+                    <point coord="0.05216 -0.01104 0.16807" />
+                    <point coord="0.05216 0.03533 0.16807" />
+                    <point coord="0.05216 0.03515 0.1682" />
+                    <point coord="0.05216 0.03495 0.16806" />
+                    <point coord="0.05216 0.03533 0.22582" />
+                    <point coord="0.02198 0.06431 0.22581" />
+                    <point coord="0.02198 0.06431 0.16782" />
+                    <point coord="0.03707 0.04982 0.16807" />
+                    <point coord="0.02165 0.06431 0.16759" />
+                    <point coord="0.00983 -0.0267 0.13988" />
+                    <point coord="-0.02608 0.01999 0.25374" />
+                    <point coord="-0.01664 0.02906 0.25374" />
+                    <point coord="-0.01153 0.0341 0.25374" />
+                    <point coord="0.01169 0.0341 0.25374" />
+                    <point coord="0.01664 0.02906 0.25374" />
+                    <point coord="0.02608 0.02 0.25374" />
+                    <point coord="0.02608 -0.00555 0.25374" />
+                    <point coord="0.0041 -0.02666 0.25374" />
+                    <point coord="-0.00453 -0.02666 0.25374" />
+                    <point coord="-0.02608 -0.00544 0.25374" />
+                    <point coord="-0.05206 -0.01092 0.22568" />
+                    <point coord="0.01144 0.03421 0.25364" />
+                    <point coord="-0.01143 0.03414 0.2537" />
+                </points>
+                <triangles>
+                    <triangle index="8 7 0" />
+                    <triangle index="1 0 7" />
+                    <triangle index="7 6 1" />
+                    <triangle index="1 6 5" />
+                    <triangle index="2 1 5" />
+                    <triangle index="5 4 2" />
+                    <triangle index="3 2 4" />
+                    <triangle index="12 11 10" />
+                    <triangle index="9 12 10" />
+                    <triangle index="11 14 13" />
+                    <triangle index="10 11 13" />
+                    <triangle index="15 14 11" />
+                    <triangle index="16 15 11" />
+                    <triangle index="18 17 19" />
+                    <triangle index="17 15 16" />
+                    <triangle index="19 17 16" />
+                    <triangle index="20 19 16" />
+                    <triangle index="20 22 21" />
+                    <triangle index="19 20 21" />
+                    <triangle index="21 22 23" />
+                    <triangle index="24 23 22" />
+                    <triangle index="25 28 26" />
+                    <triangle index="24 26 28" />
+                    <triangle index="23 24 28" />
+                    <triangle index="27 26 24" />
+                    <triangle index="28 25 29" />
+                    <triangle index="29 25 31" />
+                    <triangle index="30 29 31" />
+                    <triangle index="9 29 30" />
+                    <triangle index="9 30 32" />
+                    <triangle index="12 9 32" />
+                    <triangle index="24 8 0" />
+                    <triangle index="27 24 0" />
+                    <triangle index="22 7 8" />
+                    <triangle index="24 22 8" />
+                    <triangle index="33 7 22" />
+                    <triangle index="7 33 6" />
+                    <triangle index="5 6 33" />
+                    <triangle index="20 5 33" />
+                    <triangle index="22 20 33" />
+                    <triangle index="4 5 20" />
+                    <triangle index="20 16 4" />
+                    <triangle index="11 3 4" />
+                    <triangle index="16 11 4" />
+                    <triangle index="12 2 11" />
+                    <triangle index="3 11 2" />
+                    <triangle index="32 1 12" />
+                    <triangle index="2 12 1" />
+                    <triangle index="30 31 32" />
+                    <triangle index="32 31 26" />
+                    <triangle index="32 26 27" />
+                    <triangle index="1 32 27" />
+                    <triangle index="27 0 1" />
+                    <triangle index="26 31 25" />
+                    <triangle index="41 40 42" />
+                    <triangle index="43 42 40" />
+                    <triangle index="39 34 43" />
+                    <triangle index="40 39 43" />
+                    <triangle index="34 39 38" />
+                    <triangle index="35 34 38" />
+                    <triangle index="38 37 35" />
+                    <triangle index="36 35 37" />
+                    <triangle index="28 39 40" />
+                    <triangle index="23 28 40" />
+                    <triangle index="21 23 40" />
+                    <triangle index="40 41 21" />
+                    <triangle index="21 41 42" />
+                    <triangle index="19 21 42" />
+                    <triangle index="42 18 19" />
+                    <triangle index="42 43 18" />
+                    <triangle index="17 18 43" />
+                    <triangle index="13 44 17" />
+                    <triangle index="43 13 17" />
+                    <triangle index="14 44 13" />
+                    <triangle index="15 17 44" />
+                    <triangle index="14 15 44" />
+                    <triangle index="13 43 34" />
+                    <triangle index="10 13 34" />
+                    <triangle index="28 45 38" />
+                    <triangle index="39 28 38" />
+                    <triangle index="29 45 28" />
+                    <triangle index="38 45 37" />
+                    <triangle index="37 45 46" />
+                    <triangle index="36 37 46" />
+                    <triangle index="9 46 45" />
+                    <triangle index="29 9 45" />
+                    <triangle index="34 35 46" />
+                    <triangle index="10 34 46" />
+                    <triangle index="46 9 10" />
+                    <triangle index="46 35 36" />
+                </triangles>
+            </boxnode>
+        </boxnode>
+        <boxnode name="neck" rotation="1 0 0 0" translation="0 0 0">
+            <points>
+                <point coord="-0.02295 0.0025 0.1075" />
+                <point coord="0.02295 0.0025 0.1075" />
+                <point coord="0.02295 0.02349 0.1075" />
+                <point coord="-0.02295 0.02349 0.1075" />
+                <point coord="-0.02295 0.0025 0.15139" />
+                <point coord="-0.02295 0.02349 0.15139" />
+                <point coord="0.02295 0.02349 0.15139" />
+                <point coord="0.02295 0.0025 0.15139" />
+            </points>
+            <triangles>
+                <triangle index="3 2 0" />
+                <triangle index="1 0 2" />
+                <triangle index="6 5 4" />
+                <triangle index="4 7 6" />
+                <triangle index="0 4 3" />
+                <triangle index="5 3 4" />
+                <triangle index="2 3 6" />
+                <triangle index="5 6 3" />
+                <triangle index="2 6 1" />
+                <triangle index="7 1 6" />
+                <triangle index="0 1 4" />
+                <triangle index="7 4 1" />
+            </triangles>
+        </boxnode>
+    </boxnode>
+</boxnodes>

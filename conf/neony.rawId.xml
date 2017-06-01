@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot>
+ <motors>
+   <motor id="0" rawId="26" />
+   <motor id="1" rawId="27" />
+   <motor id="2" rawId="18" />
+   <motor id="3" rawId="12" />
+   <motor id="4" rawId="19" />
+   <motor id="5" rawId="13" />
+   <motor id="6" rawId="20" />
+   <motor id="7" rawId="14" />  
+   <motor id="8" rawId="29" />
+   <motor id="9" rawId="24" />
+   <motor id="10" rawId="6" />
+   <motor id="11" rawId="0" />
+   <motor id="12" rawId="7" />
+   <motor id="13" rawId="1" />
+   <motor id="14" rawId="8" />
+   <motor id="15" rawId="2" />
+   <motor id="16" rawId="9" />
+   <motor id="17" rawId="3" />  
+   <motor id="18" rawId="10" />
+   <motor id="19" rawId="4" />
+   <motor id="20" rawId="11" />
+   <motor id="21" rawId="5" />
+ </motors>
+</robot>

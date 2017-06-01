@@ -1,0 +1,19 @@
+PROGS = gui/testBug
+
+#for libs and flags
+USEGTK = 1
+USEGTKGL = 1
+#USELAPACK = 1
+
+#sources 
+
+PACK1=  $(HELIUM)/robot/hwInterface.cpp $(HELIUM)/robot/frame.cpp  $(HELIUM)/robot/motorInterface.cpp  $(HELIUM)/robot/hwStateMonitor.cpp $(HELIUM)/robot/sensorInterface.cpp $(HELIUM)/robot/motorActiveMode.cpp $(HELIUM)/robot/genericMotorSign.cpp $(HELIUM)/robot/motorSpooler.cpp
+
+
+PACK2= guideTeachList.cpp  teachList.cpp guideDescription.cpp $(ROBOT) $(APPLICATION) $(TINYXML)  $(ROBOTFRAME) guideTeachWindow.cpp guideMotionManagement.cpp connectionCell.cpp yesNoDialog.cpp  $(CONVEX) readablePostureDrawer.cpp inputDialog.cpp
+
+SOURCES = testBug.cpp guideState.cpp  $(PACK2)
+
+
+ 
+include ../../Makehel

@@ -1,0 +1,11 @@
+PROGS=gui/posturePrinter
+
+
+SOURCES = posturePrinter.cpp postureDrawer.cpp postureCaptureWindow.cpp readablePostureDrawer.cpp gtkglareaBox.cpp $(GUIDE2) $(GRAPHICS) $(CONVEX) $(TINYXML) $(GTKGL) $(HELIUMS) 
+USEGTK=1
+USEGTKGL=1
+
+
+
+
+include ../../Makehel

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors num="13" type="vs-sv410" min="-100" max="100" model="">
+    <motor id="0" name="Neck Y" />
+    <motor id="1" name="Neck P" />
+    <motor id="2" name="Neck R" />
+
+    <motor id="3" name="R Shoulder P" />
+    <motor id="4" name="L Shoulder P" />
+    <motor id="5" name="R Shoulder R" />
+    <motor id="6" name="L Shoulder R" />
+
+    <motor id="7" name="R Elbow Y" />
+    <motor id="8" name="L Elbow Y" />
+    <motor id="9" name="R Elbow R" />
+    <motor id="10" name="L Elbow R" />
+
+    <motor id="11" name="R Wheel" />
+    <motor id="12" name="L Wheel" />
+
+  </motors>
+</robot>

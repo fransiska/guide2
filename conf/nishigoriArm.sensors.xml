@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot>
+    <sensors num="17">
+      <sensor id="0" board="1" channel="0" min="573" max="1662" name="lHipB" />
+      <sensor id="1" board="1" channel="1" min="411" max="1411" name="lHipF" />
+      <sensor id="2" board="2" channel="0" min="691" max="1597" name="lKnee" />
+      <sensor id="3" board="2" channel="1" min="418" max="1637" name="lLegupperL" />
+      <sensor id="4" board="2" channel="2" min="546" max="1405" name="lLegupperF" />
+      <sensor id="5" board="2" channel="3" min="586" max="1535" name="lLegupperR" />
+      <sensor id="6" board="3" channel="0" min="605" max="1578" name="lAnkleF" />
+      <sensor id="7" board="3" channel="1" min="465" max="1599" name="lLeglowerR" />
+      <sensor id="8" board="3" channel="4" min="457" max="1581" name="lLeglowerF" />
+      <sensor id="9" board="3" channel="3" min="471" max="1538" name="lLeglowerL" />
+      <sensor id="10" board="4" channel="0" min="395" max="1352" name="lFootpalmFL" />
+      <sensor id="11" board="4" channel="1" min="401" max="1585" name="lFoottopL" />
+      <sensor id="12" board="4" channel="2" min="417" max="1332" name="lFootpalmBL" />
+      <sensor id="13" board="4" channel="3" min="547" max="1807" name="lFoottopB" />
+      <sensor id="14" board="4" channel="4" min="320" max="1155" name="lFootpalmFR" />
+      <sensor id="15" board="4" channel="5" min="447" max="1481" name="lFoottopR" />
+      <sensor id="16" board="4" channel="6" min="502" max="1487" name="lAnkleB" />
+    </sensors>
+</robot>

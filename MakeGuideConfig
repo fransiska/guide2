@@ -1,0 +1,39 @@
+PPATH= ../../
+HELIUM= ../../helium
+THIRD = ../../../third
+CPPFLAGS= -g -Wall -I $(THIRD) -I $(PPATH) `pkg-config gtkgl-2.0 gtkmm-2.4 --cflags`
+LIBS= -lpthread `pkg-config gtkgl-2.0 gtkmm-2.4 --libs`
+
+TINYXML = $(THIRD)/tinyxml/tinyxml.cpp $(THIRD)/tinyxml/tinyxmlerror.cpp $(THIRD)/tinyxml/tinyxmlparser.cpp  $(THIRD)/tinyxml/tinystr.cpp
+GC = guideConfig.cpp guideMain.cpp $(HELIUM)/thread/thread.cpp  $(HELIUM)/system/remoteCell.cpp $(HELIUM)/system/cellClient.cpp $(HELIUM)/system/basicCell.cpp $(HELIUM)/net/clientSocket.cpp $(HELIUM)/xml/xmlLoader.cpp $(HELIUM)/robot/application.cpp $(HELIUM)/robot/config.cpp $(HELIUM)/robot/robotDefaults.cpp $(HELIUM)/robot/limitFactory.cpp $(HELIUM)/core/basicEnum.cpp $(HELIUM)/system/valueProxy.cpp $(TINYXML) 
+
+#
+#cellServer.cpp $(HELIUM)/thread/thread.cpp  $(HELIUM)/net/serverSocket.cpp $(HELIUM)/system/remoteCells.cpp
+#pipeTest.cpp $(PPATH)/helium/thread/thread.cpp
+#$(PPATH)/helium/core/fifoPipe.cpp 
+#neonyInterface.cpp
+#volatileTestFb.cpp #../xml/genericLoader.cpp  ../system/basicCell.cpp
+
+SOURCES = $(GC)
+
+PROGS=guideConfig
+
+CC=g++
+ODIR = ../../../obj/$(shell uname -n)
+
+DIRS = $(dir $(SOURCES))
+SRC = $(notdir $(SOURCES))
+
+vpath %.cpp $(DIRS)
+
+OBJS := $(patsubst %.cpp, $(ODIR)/%.o, $(SRC))
+
+$(ODIR)/%.o: %.cpp 
+	@mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) -c -o $@ $<
+
+$(PROGS): $(OBJS) 
+	$(CC) -o $@.$(shell uname -n)  $^ $(LIBS)
+
+clean:
+	rm -f  $(PROGS).$(shell uname -n) $(OBJS)

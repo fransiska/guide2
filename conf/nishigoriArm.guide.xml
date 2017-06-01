@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors>
+    <motor id="13" x="370" y="28" description="left" type="roll" reverse="false" />
+    <motor id="11" x="503" y="28" description="right" type="roll" reverse="false" />
+    <motor id="14" x="370" y="76" description="left" type="roll" reverse="false" />
+    <motor id="12" x="503" y="76" description="right" type="roll" reverse="false" />
+    <motor id="15" x="370" y="124" description="left" type="roll" reverse="false" />
+    <motor id="16" x="370" y="172" description="left" type="roll" reverse="false" />
+
+    <motor id="8" x="148" y="256" description="left" type="roll" reverse="false" />
+    <motor id="7" x="283" y="256" description="right" type="roll" reverse="false" />
+    <motor id="10" x="148" y="305" description="left" type="roll" reverse="false" />
+    <motor id="9" x="283" y="305" description="right" type="roll" reverse="false" />
+
+    <motor id="4" x="212" y="352" description="left" type="roll" reverse="false" />
+    <motor id="5" x="212" y="399" description="left" type="roll" reverse="false" />
+    <motor id="6" x="283" y="352" description="right" type="roll" reverse="false" />
+
+    <motor id="1" x="148" y="447" description="left" type="roll" reverse="false" />
+    <motor id="0" x="283" y="447" description="right" type="roll" reverse="false" />
+    <motor id="3" x="148" y="495" description="left" type="roll" reverse="false" />
+    <motor id="2" x="283" y="495" description="right" type="roll" reverse="false" />
+  </motors>
+
+  <sensors>
+    <sensor id="13" x="367" y="28" />
+    <sensor id="11" x="500" y="28" />
+    <sensor id="14" x="367" y="76" />
+    <sensor id="12" x="500" y="76" />
+    <sensor id="15" x="367" y="124" />
+    <sensor id="16" x="367" y="172" />
+
+    <sensor id="8" x="145" y="256" />
+    <sensor id="7" x="281" y="256" />
+    <sensor id="10" x="145" y="303" />
+    <sensor id="9" x="281" y="303" />
+
+    <sensor id="4" x="211" y="352" />
+    <sensor id="5" x="211" y="399" />
+    <sensor id="6" x="281" y="352" />
+
+    <sensor id="1" x="145" y="447" />
+    <sensor id="0" x="281" y="447" />
+    <sensor id="3" x="145" y="495" />
+    <sensor id="2" x="281" y="495" />
+  </sensors>
+
+  <structure>
+    <limbs>
+      <limb id="0" x="27" y="18" />
+      <limb id="1" x="27" y="38" />
+      <limb id="2" x="27" y="58" />
+    </limbs>
+  </structure>
+</robot>

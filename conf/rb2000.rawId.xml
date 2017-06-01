@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<robot>
+ <motors>
+
+   <motor id="6" rawId="1" />
+   <motor id="8" rawId="3" />
+   <motor id="10" rawId="4" />
+   <motor id="12" rawId="5" />
+
+   <motor id="5" rawId="7" />
+   <motor id="7" rawId="9" />
+   <motor id="9" rawId="10" />
+   <motor id="11" rawId="11" />
+
+   <motor id="2" rawId="12" />
+   <motor id="4" rawId="13" />
+
+   <motor id="1" rawId="18" />
+   <motor id="3" rawId="19" />
+
+   <motor id="0" rawId="26" />
+
+ </motors>
+</robot>

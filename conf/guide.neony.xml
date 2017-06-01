@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config>
+  <configfile id="neonyGui" filename="conf/neony.gui.xml" />
+  <configfile id="guideColors" filename="conf/guide.colors.xml" />
+  <configfile id="neonyMotors" filename="conf/neony.motors.xml" /> 
+  <configfile id="neonyCalib" filename="conf/neony.calib.xml" />
+  <configfile id="neonyLimbs" filename="conf/neony.limbs.xml" />
+  <configfile id="neonySensors" filename="conf/neony.sensors.xml" />
+  <configfile id="neonyPostures" filename="conf/neony.postures.xml" />
+  <configfile id="neonyGuide" filename="conf/neony.guide.xml" />
+</config>

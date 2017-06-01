@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<collisionDetection>
+    <box id="0" name="BODY" size=" 117 109 105" jointDisplacement=" 0 0 0" partDisplacement=" 0 0 0" toIncrease="1" />
+    <box id="1" name="NECK" size=" 45 40 21" jointDisplacement=" 58.5 109 47" partDisplacement=" -22.5 0 -10.5" toIncrease="0" />
+    <box id="2" name="HEAD" size=" 107 113 113" jointDisplacement=" 22.5 32 10.5" partDisplacement=" -53.5 0 -56.5" toIncrease="1" />
+    <box id="3" name="LSHOULDER" size=" 50 53 44" jointDisplacement=" 4 0 0" partDisplacement=" 0 -30 -30" toIncrease="0" />
+    <box id="5" name="LARM" size=" 50 93 66" jointDisplacement=" 12 10 22" partDisplacement=" -10 -83 -33" toIncrease="1" />
+    <box id="7" name="LHAND" size=" 42 126 65" jointDisplacement=" 11 10 11" partDisplacement=" -10 -116 -11" toIncrease="1" />
+    <box id="9" name="LHIP" size=" 34 58.5 65" jointDisplacement=" 97 -4 45" partDisplacement=" -22 -58.5 -32.5" toIncrease="0" />
+    <box id="11" name="LHIPSQUARE" size=" 44 42 44" jointDisplacement=" 10 10 32.5" partDisplacement=" -12 -10 -22" toIncrease="0" />
+    <box id="13" name="LHIPTRIANGLE" size=" 52 43 60" jointDisplacement=" 22 31 33" partDisplacement=" -26 -32 -33" toIncrease="1" />
+    <box id="15" name="LUPPERLEGFRONT" size=" 70 85 33" jointDisplacement=" 26 19 36" partDisplacement=" -35 -81 -12" toIncrease="0" />
+    <box id="17" name="LUPPERLEGBACK" size=" 57 78 12" jointDisplacement=" 26 14 8" partDisplacement=" -28.5 -74 -8" toIncrease="0" />
+    <box id="19" name="LKNEE" size=" 44 47 50" jointDisplacement=" 35 11 12" partDisplacement=" -22 -36 -32" toIncrease="0" />
+    <box id="21" name="LLOWERLEGFRONT" size=" 70 85 33" jointDisplacement=" 22 11 32" partDisplacement=" -35 -74 -12" toIncrease="0" />
+    <box id="23" name="LLOWERLEGBACK" size=" 57 78 12" jointDisplacement=" 22 15 4" partDisplacement=" -28.5 -74 -8" toIncrease="0" />
+    <box id="25" name="LFOOTTRIANGLE" size=" 52 43 60" jointDisplacement=" 35 4 12" partDisplacement=" -26 -24 -36" toIncrease="0" />
+    <box id="27" name="LFOOTSQUARE" size=" 44 42 44" jointDisplacement=" 26 11 33" partDisplacement=" -22 -11 -33" toIncrease="0" />
+    <box id="29" name="LFOOTVERTICAL" size=" 34 58.5 65" jointDisplacement=" 12 32 22" partDisplacement=" -10 -48.5 -32.5" toIncrease="0" />
+    <box id="31" name="LFOOTHORIZONTAL" size=" 75 15 110" jointDisplacement=" 12 32 22" partDisplacement=" -23 -56.5 -45" toIncrease="0" />
+</collisionDetection>

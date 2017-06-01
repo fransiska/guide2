@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config>
+  <configfile id="rb2000Gui" filename="conf/rb2000.gui.xml" />
+  <configfile id="rb2000Motors" filename="conf/rb2000.motors.xml" /> 
+  <configfile id="rb2000Calib" filename="conf/rb2000.calib.xml" />
+  <configfile id="rb2000Limbs" filename="conf/rb2000.limbs.xml" />
+  <configfile id="rb2000Postures" filename="conf/rb2000.postures.xml" />
+  <configfile id="rb2000Sensors" filename="conf/rb2000.sensors.xml" />
+  <configfile id="rb2000Guide" filename="conf/rb2000.guide.xml" />
+</config>

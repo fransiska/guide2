@@ -1,0 +1,23 @@
+#please adjust these to your own program!
+
+PROGS = gui/guide2
+
+#for libs and flags
+USEGTK = 1
+USEGTKGL = 1
+USELAPACK = 1
+
+#sources
+WINDOWS = guideModelWindow.cpp guideDebugWindow.cpp guideTeachWindow.cpp guideHardwareWindow.cpp guidePostureWindow.cpp floatingModelWindow.cpp 
+DIALOGS = guideErrorDialog.cpp inputDialog.cpp yesNoDialog.cpp angleEntry.cpp 
+GUI = widgetDrawer.cpp guideWindow.cpp guideCanvas.cpp drawable.cpp $(WINDOWS) $(DIALOGS) 
+GUIDE2 = guideMain.cpp guideState.cpp guideHistory.cpp guideLogic.cpp guideDescription.cpp motionLine.cpp guideMenu.cpp gtkglareaBox.cpp readablePostureDrawer.cpp guideMotionManagement.cpp guideLog.cpp guideTeachList.cpp connectionCell.cpp  $(GUI) 
+
+GYRO= $(HB)/robot/gyroCalibManager.cpp  
+SENSORCALIB=$(PPATH)/app/sensorCalibWindow/sensorCalib.cpp $(PPATH)/app/sensorCalibWindow/sensorCalibWindow.cpp $(PPATH)/app/sensorCalibWindow/sensorCalibMenu.cpp $(PPATH)/app/sensorCalibWindow/sensorCalibDrawingWidget.cpp $(GYRO)
+
+GYROCALIB=$(PPATH)/app/gyroCalibWindow/gyroCalib.cpp $(PPATH)/app/gyroCalibWindow/gyroCalibWindow.cpp $(PPATH)/app/gyroCalibWindow/gyroCalibBox.cpp $(SIMUL) $(PPATH)/app/gyroCalibWindow/gyroCalibGlWindow.cpp
+
+SOURCES =  $(GUIDE2) $(TINYXML) $(CONVEX) $(GRAPHICS) $(MATH) $(SENSORCALIB) $(GYROCALIB)  $(ROBOTFRAME)  $(ROBOT) $(CELL) $(CORE) $(HELIUMS) $(LAPACK)
+
+include ../../Makehell

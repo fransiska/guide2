@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<guide>
+  <postures num="1">
+    <posture id="0" name="Posture 1" angle=" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+  </postures>
+</guide>

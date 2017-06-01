@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors calibmin="-4000" calibmax="4000">
+    <motor id="0"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="1"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="2"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="3"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="4"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="5"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="6"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="7"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="8"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="9"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="10"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="11"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="12"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="13"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="14"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="15"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="16"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="17"> <calib min="-4000" max="4000" zero="0" /> </motor>
+    <motor id="18"> <calib min="-4000" max="4000" zero="0" /> </motor>
+  </motors>
+</robot>

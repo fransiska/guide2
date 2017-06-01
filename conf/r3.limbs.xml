@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot>
+  <structure>
+    <limbs num="5">
+      <limb id="0" name="Head">
+	<member> 0 1 2</member>
+      </limb>
+      <limb id="1" name="Right arm">
+	<member> 3 5 7 9</member>
+      </limb>
+      <limb id="2" name="Left arm">
+	<member>4 6 8 10</member>
+      </limb>
+      <limb id="3" name="Wheel">
+	<member> 11 12</member>
+      </limb>
+      <limb id="4" name="Whole body">
+	<member> 0 1 2 3 4 5 6 7 8 9 10 11 12</member>
+      </limb>
+    </limbs>
+  </structure>
+</robot>

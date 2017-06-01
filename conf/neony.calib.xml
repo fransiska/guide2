@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors calibmin="200" calibmax="e00">
+<!--        <motor id="0"> <calib min="200" max="e00" zero="7bf" /> </motor> -->
+    <motor id="0"> <calib min="6a3" max="988" zero="7bf" /> </motor>
+    <motor id="1"> <calib min="433" max="c2e" zero="7a7" /> </motor>
+    <motor id="2"> <calib min="31f" max="da3" zero="840" /> </motor>
+    <motor id="3"> <calib min="2b3" max="dbf" zero="866" /> </motor>
+    <motor id="4"> <calib min="457" max="dfb" zero="7ab" /> </motor>
+    <motor id="5"> <calib min="322" max="c59" zero="8e3" /> </motor>
+    <motor id="6"> <calib min="452" max="ddf" zero="8c0" /> </motor>
+    <motor id="7"> <calib min="22f" max="c8e" zero="6f0" /> </motor>
+    <motor id="8"> <calib min="21d" max="de9" zero="7e2" /> </motor>
+    <motor id="9"> <calib min="234" max="d9d" zero="809" /> </motor>
+    <motor id="10"> <calib min="539" max="92e" zero="7be" /> </motor>
+    <motor id="11"> <calib min="6a9" max="a48" zero="7e6" /> </motor>
+    <motor id="12"> <calib min="34b" max="a94" zero="7e5" /> </motor>
+    <motor id="13"> <calib min="48e" max="d05" zero="837" /> </motor> 
+    <motor id="14"> <calib min="365" max="8ed" zero="891" /> </motor>
+    <motor id="15"> <calib min="7a3" max="cf2" zero="7b1" /> </motor>
+    <motor id="16"> <calib min="7a8" max="d18" zero="7f2" /> </motor>
+    <motor id="17"> <calib min="2ee" max="817" zero="7c5" /> </motor>
+    <motor id="18"> <calib min="460" max="bf5" zero="812" /> </motor>
+    <motor id="19"> <calib min="457" max="97e" zero="7e0" /> </motor>
+    <motor id="20"> <calib min="60e" max="941" zero="7d8" /> </motor>
+    <motor id="21"> <calib min="609" max="961" zero="7ed" /> </motor>
+  </motors>
+</robot>

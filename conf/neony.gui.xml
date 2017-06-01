@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<guide>
+  <settings>
+    <sizes>
+      <joint small="42" big="226" bigh="250" />
+      <stroke size="2" />
+      <calib offset="34" />
+      <warningbar size="12" />
+      <bar height="16" width="202" />
+      <entry width="50" height="25" spaceH="5" offset="43" soffset="43" />
+      <model width="144" height="104" />
+      <switch width="35" height="18" offset="86" />
+      <arrow width="40" height="18" />
+      <arrowbox width="53" height="40" />
+      <frame width="50" height="50" />
+      <windowoff width="23" height="122" />
+    </sizes>
+  </settings>
+  <preferences>
+    <robot type="neony" />
+    <background filename="img/bg.png" width="830" height="565" />    
+
+    <posturelist filename="neonyPostureList.xml" />    
+    <teachlist filename="../../../../../data/teachList.xml" />
+    <log filename="../../../../../data/motion" />
+
+    <properties touchsensor="true" model="true" gyro="true" temperature="true" />
+    <gyrocalib filename="conf/gyroCalib.txt" />
+    <sensor filename="img/erato-baby-s.png" radius="20" width="800" height="592" />
+  </preferences>
+</guide>

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config>
+  <configfile id="roboviexGui" filename="conf/roboviex.gui.xml" />
+  <configfile id="roboviexMotors" filename="conf/roboviex.motors.xml" /> 
+  <configfile id="roboviexCalib" filename="conf/roboviex.calib.xml" />
+  <configfile id="roboviexLimbs" filename="conf/roboviex.limbs.xml" />
+  <configfile id="roboviexPostures" filename="conf/roboviex.postures.xml" />
+  <configfile id="roboviexSensors" filename="conf/roboviex.sensors.xml" />
+  <configfile id="roboviexGuide" filename="conf/roboviex.guide.xml" />
+</config>

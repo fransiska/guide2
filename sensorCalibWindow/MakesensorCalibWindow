@@ -1,0 +1,16 @@
+PPATH=../..
+THIRD=../../../third
+
+MATH=$(PPATH)/math/matrixUtil.cpp
+NET=$(PPATH)/net/clientSocket.cpp
+ROBOT= $(PPATH)/robot/im.cpp $(PPATH)/robot/asciiClient.cpp $(PPATH)/robot/tSensor.cpp $(PPATH)/robot/remoteMotors.cpp $(PPATH)/robot/motors.cpp $(PPATH)/robot/gyro.cpp $(PPATH)/robot/policy.cpp $(PPATH)/robot/framePolicy.cpp $(PPATH)/robot/namedException.cpp $(PPATH)/robot/sensorCalibManager.cpp $(PPATH)/robot/gyroCalibManager.cpp $(PPATH)/robot/structure.cpp $(PPATH)/robot/sensorCalibXml.cpp
+THREAD=$(PPATH)/thread/lwThread.cpp $(PPATH)/thread/updateElement.cpp $(PPATH)/thread/watchdog.cpp
+GUIOBJECTS=$(PPATH)/guiObjects/guiConnectionLine.cpp
+VSTONE=$(PPATH)/vstone/V4Gstructure.cpp
+TINYXML= $(THIRD)/tinyxml/tinyxml.cpp $(THIRD)/tinyxml/tinyxmlerror.cpp $(THIRD)/tinyxml/tinyxmlparser.cpp  $(THIRD)/tinyxml/tinystr.cpp
+
+SOURCES = sensorCalibMain.cpp sensorCalib.cpp sensorCalibWindow.cpp sensorCalibMenu.cpp sensorCalibDrawingWidget.cpp sensorCalibDrawManager.cpp $(ROBOT) $(THREAD) $(NET) $(MATH) $(GUIOBJECTS) $(VSTONE) $(TINYXML)
+PROGS = $(PPATH)/../bin/gui/sensorCalibWindow
+CPPFLAGS = -g -Wall `pkg-config gtkmm-2.4 --cflags` -I $(PPATH) -I $(THIRD)
+LIBS = `pkg-config gtkmm-2.4 --libs` -lgthread-2.0
+include ../../Makearch

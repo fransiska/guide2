@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<guide>
+  <settings>
+    <colors>
+      <cursors num="3">
+	<cursor id="0" name="ROBOT" rgb="226 89 96" /> <!-- 204 76 76 --> 
+	<cursor id="1" name="FRAME" rgb="87 95 142" /> <!-- 76 204 204 -->
+	<cursor id="2" name="POT"   rgb="255 204 0" />
+      </cursors>
+      <switches num="2">
+	<switch id="0" name="OFF" rgb="166 51 76" />
+	<switch id="1" name="ON" rgb="74 131 79" /> <!-- 151 196 115 -->
+      </switches>
+      <disable rgb="168 168 168" />
+      <error rgb="178 76 76" />
+      <selected rgb="102 102 102" />
+      <reds num="3">
+	<red id="0" rgb="230 153 153" />
+	<red id="1"  rgb="230 76 76" />
+	<red id="2"  rgb="230 0 0" />
+      </reds>
+      <calibs num="3"> <!--  --> 
+	<calib id="0" name="MIN" rgb="255 178 0" />
+	<calib id="1" name="ZERO" rgb="76 204 76" />
+	<calib id="2" name="MAX" rgb="76 76 178" />
+      </calibs>
+      <bgs num="2">
+	<bg id="0" name="NORMAL" rgb="255 255 255" />
+	<bg id="1" name="JOINT" rgb="222 222 222" />
+      </bgs>
+      <moving rgb="227 133 78" />
+      <nantemp rgb="126 138 150" />
+      <sensorthemes num="5">
+	<sensortheme id="0" name="BLUE" rgb="96 157 181" />
+	<sensortheme id="1" name="GREEN" rgb="120 164 100" />
+	<sensortheme id="2" name="ORANGE" rgb="199 139 95" />
+	<sensortheme id="3" name="PURPLE" rgb="115 97 140" />
+	<sensortheme id="4" name="RED" rgb="226 89 96" />
+      </sensorthemes>
+    </colors>
+  </settings>
+</guide>

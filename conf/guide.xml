@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<config>
+<configfile id="target" filename="conf/guide.neony.xml" />
+<!--    conf/guide.nishigoriArm.xml -->
+</config>

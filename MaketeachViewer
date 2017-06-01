@@ -1,0 +1,19 @@
+#please adjust these to your own program!
+
+
+#CPPFLAGS = -ftime-report
+
+PROGS = gui/teachViewerPlot
+
+#for libs and flags
+USEGTK = 1
+USEGTKGL = 1
+
+#sources
+GUIDE2 =  teachPower.cpp guideTeachList.cpp teachIO.cpp guideTeachWindow.cpp  guideDescription.cpp   inputDialog.cpp yesNoDialog.cpp connectionCell.cpp guideState.cpp guideMotionManagement.cpp 
+MODEL = gtkglareaBox.cpp readablePostureDrawer.cpp postureDrawer.cpp postureCaptureWindow.cpp floatingModelWindow.cpp guideModelWindow.cpp
+SENSORCALIB=$(PPATH)/app/guide2/sensorCalibWindow/sensorCalib.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibWindow.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibMenu.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibDrawingWidget.cpp 
+
+SOURCES = teachUse.cpp im.cpp teachViewer.cpp $(PEDAL) $(MODEL) $(TINYXML) $(GUIDE2) $(CONVEX) $(GRAPHICS) $(MATH) $(SENSORCALIB) $(CORE) $(ROBOTFRAME)  $(ROBOT) $(HELIUMS)  
+
+include ../../Makehel

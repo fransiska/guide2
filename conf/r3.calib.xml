@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors calibmin="200" calibmax="e00">
+<!--        <motor id="0"> <calib min="200" max="e00" zero="7bf" /> </motor> -->
+    <motor id="0"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="1"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="2"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="3"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="4"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="5"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="6"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="7"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="8"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="9"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="10"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="11"> <calib min="200" max="800" zero="300" /> </motor>
+    <motor id="12"> <calib min="200" max="800" zero="300" /> </motor>
+  </motors>
+</robot>

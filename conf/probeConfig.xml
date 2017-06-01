@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<probe> 
+  /dev/ttyUSB0 /dev/ttyUSB1
+</probe>
+

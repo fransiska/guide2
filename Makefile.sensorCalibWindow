@@ -1,0 +1,21 @@
+#please adjust these to your own program!
+
+
+#CPPFLAGS = -ftime-report
+
+PROGS = gui/sensorCalibWindow
+
+#for libs and flags
+USEGTK = 1
+USEGTKGL = 1
+
+GUIDE2 =  teachPower.cpp guideTeachList.cpp teachIO.cpp  guideDescription.cpp   inputDialog.cpp yesNoDialog.cpp connectionCell.cpp guideState.cpp guideMotionManagement.cpp # guideMain.cpp guideHistory.cpp guideLogic.cpp motionLine.cpp guideMenu.cpp gtkglareaBox.cpp readablePostureDrawer.cpp  guideLog.cpp guideTeachList.cpp teachIO.cpp   $(GUI) 
+
+MODEL = gtkglareaBox.cpp readablePostureDrawer.cpp postureDrawer.cpp postureCaptureWindow.cpp floatingModelWindow.cpp guideModelWindow.cpp
+
+SENSORCALIB=$(PPATH)/app/guide2/sensorCalibWindow/sensorCalib.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibWindow.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibMenu.cpp $(PPATH)/app/guide2/sensorCalibWindow/sensorCalibDrawingWidget.cpp 
+
+
+SOURCES = sensorCalibCircleWindow.cpp   $(MODEL) $(TINYXML) $(GUIDE2) $(CONVEX) $(GRAPHICS) $(MATH) $(SENSORCALIB) $(CORE) $(ROBOTFRAME)  $(ROBOT) $(HELIUMS)  #$(GYROCALIB)   $(CELL) $(LAPACK) #im.cpp
+
+include ../../Makehel

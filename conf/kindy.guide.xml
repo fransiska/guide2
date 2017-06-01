@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<robot>
+  <motors>
+    <motor id="0" x="401" y="38" description="right" type="roll" reverse="false" />
+    <motor id="1" x="401" y="90" description="right" type="pitch" reverse="false" />
+    <motor id="2" x="401" y="142" description="right" type="yaw" reverse="false" />
+    <motor id="3" x="401" y="224" description="right" type="yaw" reverse="false" />
+
+    <motor id="4" x="161" y="177" description="left" type="pitch" reverse="true" />
+    <motor id="5" x="642" y="177" description="right" type="pitch" reverse="false" />
+    <motor id="6" x="161" y="230" description="left" type="roll" reverse="false" />
+    <motor id="7" x="642" y="230" description="right" type="roll" reverse="false" />
+    <motor id="8" x="161" y="277" description="left" type="pitch" reverse="true" />
+    <motor id="9" x="642" y="277" description="right" type="pitch" reverse="false" />
+    <motor id="10" x="161" y="325" description="left" type="roll" reverse="false" />
+    <motor id="11" x="642" y="325" description="right" type="roll" reverse="false" />
+    <motor id="12" x="161" y="378" description="left" type="yaw" reverse="true" />
+    <motor id="13" x="642" y="378" description="right" type="yaw" reverse="false" />
+    <motor id="14" x="161" y="425" description="left" type="roll" reverse="false" />
+    <motor id="15" x="642" y="425" description="right" type="roll" reverse="false" />
+    <motor id="16" x="161" y="473" description="left" type="roll" reverse="false" />
+    <motor id="17" x="642" y="473" description="right" type="roll" reverse="false" />
+
+    <motor id="18" x="348" y="321" description="left" type="yaw" reverse="true" />
+    <motor id="19" x="455" y="321" description="right" type="yaw" reverse="true" />
+    <motor id="22" x="348" y="372" description="left" type="pitch" reverse="true" />
+    <motor id="23" x="455" y="372" description="right" type="pitch" reverse="true" />
+    <motor id="20" x="348" y="421" description="left" type="roll" reverse="false" />
+    <motor id="21" x="455" y="421" description="right" type="roll" reverse="true" />
+    <motor id="24" x="348" y="468" description="left" type="pitch" reverse="false" />
+    <motor id="25" x="455" y="468" description="right" type="pitch" reverse="true" />
+    <motor id="26" x="348" y="521" description="left" type="pitch" reverse="false" />
+    <motor id="27" x="455" y="521" description="right" type="pitch" reverse="true" />
+    <motor id="30" x="348" y="570" description="left" type="roll" reverse="true" />
+    <motor id="31" x="455" y="570" description="right" type="roll" reverse="false" />
+    <motor id="28" x="348" y="616" description="left" type="pitch" reverse="false" />
+    <motor id="29" x="455" y="616" description="right" type="pitch" reverse="false" />
+  </motors>
+
+  <structure>
+    <limbs>
+      <limb id="0" x="345" y="90" />
+      <limb id="1" x="345" y="224" />
+      <limb id="2" x="180" y="140" />
+      <limb id="3" x="624" y="140" />
+      <limb id="4" x="345" y="265" />
+      <limb id="5" x="457" y="265" />
+      <limb id="6" x="36" y="540" />
+    </limbs>
+  </structure>
+</robot>

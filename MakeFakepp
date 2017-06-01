@@ -1,0 +1,42 @@
+PPATH= ../../
+HELIUM= ../../helium
+THIRD = ../../../third
+CPPFLAGS= -g -Wall -I $(THIRD) -I $(PPATH) -rdynamic
+LIBS= -lpthread
+
+TINYXML = $(THIRD)/tinyxml/tinyxml.cpp $(THIRD)/tinyxml/tinyxmlerror.cpp $(THIRD)/tinyxml/tinyxmlparser.cpp  $(THIRD)/tinyxml/tinystr.cpp
+XMLTEST = fakepp.cpp $(HELIUM)/thread/thread.cpp   $(HELIUM)/system/clientSocket.cpp $(HELIUM)/system/basicCell.cpp $(HELIUM)/net/serverSocket.cpp $(HELIUM)/xml/xmlLoader.cpp $(HELIUM)/robot/application.cpp $(HELIUM)/robot/config.cpp $(HELIUM)/robot/robotDefaults.cpp $(HELIUM)/system/cellServer.cpp $(HELIUM)/net/netSocket.cpp $(HELIUM)/net/serverSocket.cpp $(HELIUM)/thread/mutex.cpp $(HELIUM)/thread/semaphore.cpp  $(HELIUM)/system/remoteCell.cpp $(HELIUM)/system/cellClient.cpp  $(HELIUM)/util/debug.cpp $(TINYXML)
+
+#
+
+#
+#cellServer.cpp $(HELIUM)/thread/thread.cpp  $(HELIUM)/net/serverSocket.cpp $(HELIUM)/system/remoteCells.cpp
+#pipeTest.cpp $(PPATH)/helium/thread/thread.cpp
+#$(PPATH)/helium/core/fifoPipe.cpp 
+#neonyInterface.cpp
+#volatileTestFb.cpp #../xml/genericLoader.cpp  ../system/basicCell.cpp
+
+SOURCES = $(XMLTEST) $(HELIUM)/system/valueProxy.cpp
+
+PROGS=fakepp
+
+CC=g++
+ODIR = ../../../obj/$(shell uname -n)
+
+DIRS = $(dir $(SOURCES))
+SRC = $(notdir $(SOURCES))
+
+vpath %.cpp $(DIRS)
+
+OBJS := $(patsubst %.cpp, $(ODIR)/%.o, $(SRC))
+
+$(ODIR)/%.o: %.cpp 
+	@mkdir -p $(@D)
+	$(CC) $(CPPFLAGS) -c -o $@ $<
+
+$(PROGS): $(OBJS) 
+	$(CC) -o $@.$(shell uname -n)  $^ $(LIBS) -rdynamic
+	
+
+clean:
+	rm -f  $(PROGS).$(shell uname -n) $(OBJS)

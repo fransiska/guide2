@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<guide>
+  <settings>
+    <colors>
+      <cursors num="3">
+	<cursor id="0" name="ROBOT" rgb="226 89 96" /> <!-- 204 76 76 --> 
+	<cursor id="1" name="FRAME" rgb="87 95 142" /> <!-- 76 204 204 -->
+	<cursor id="2" name="POT"   rgb="255 204 0" />
+      </cursors>
+      <switches num="2">
+	<switch id="0" name="OFF" rgb="166 51 76" />
+	<switch id="1" name="ON" rgb="74 131 79" /> <!-- 151 196 115 -->
+      </switches>
+      <disable rgb="168 168 168" />
+      <error rgb="178 76 76" />
+      <selected rgb="102 102 102" />
+      <reds num="3">
+	<red id="0" rgb="230 153 153" />
+	<red id="1"  rgb="230 76 76" />
+	<red id="2"  rgb="230 0 0" />
+      </reds>
+      <calibs num="3"> <!--  --> 
+	<calib id="0" name="MIN" rgb="255 178 0" />
+	<calib id="1" name="ZERO" rgb="76 204 76" />
+	<calib id="2" name="MAX" rgb="76 76 178" />
+      </calibs>
+      <bgs num="2">
+	<bg id="0" name="NORMAL" rgb="255 255 255" />
+	<bg id="1" name="JOINT" rgb="222 222 222" />
+      </bgs>
+      <moving rgb="227 133 78" />
+      <nantemp rgb="126 138 150" />
+    </colors>
+
+    <sizes>
+      <joint small="42" big="226" bigh="250" />
+      <stroke size="2" />
+      <calib offset="34" />
+      <warningBar size="12" />
+      <bar height="16" width="202" />
+      <entry width="50" height="25" spaceH="5" offset="43" soffset="43" />
+      <model width="144" height="104" />
+      <switch width="35" height="18" offset="86" />
+      <arrow width="40" height="18" />
+      <arrowbox width="53" height="40" />
+      <frame width="50" height="50" />
+      <windowoff width="23" height="122" />
+    </sizes>
+  </settings>
+  <preferences>
+    <robot type="r3" />
+    <background filename="img/bgr3.png" width="830" height="565" />    
+    <posturelist filename="r3PostureList.xml" />    
+    <!-- teachlist filename="../../../../../data/teachList.xml" / -->
+    <log filename="../../../../../data/guide2log" />
+    <!-- gyrocalib filename="conf/gyroCalib.txt" / -->
+    <properties touchsensor="false" model="false" gyro="false" temperature="false" />
+  </preferences>
+</guide>

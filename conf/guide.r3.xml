@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+  <configfile id="r3Gui" filename="conf/r3.gui.xml" />
+  <configfile id="r3Motors" filename="conf/r3.motors.xml" /> 
+  <configfile id="r3Calib" filename="conf/r3.calib.xml" />
+  <configfile id="r3Limbs" filename="conf/r3.limbs.xml" />
+  <configfile id="r3Postures" filename="conf/r3.postures.xml" />
+  <configfile id="r3Guide" filename="conf/r3.guide.xml" />
+</config>
